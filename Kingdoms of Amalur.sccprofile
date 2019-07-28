@@ -1,0 +1,150 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Toggle Aggressive Mode', button(Keys.KEY_H)), name('Usable Items', button(Keys.KEY_TAB)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('Use Alternate Weapon', button(Keys.KEY_Q)), name('Interact', button(Keys.KEY_F)))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Dodge"
+        }, 
+        "RB": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Block"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Sprint"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_C)", 
+            "name": "Stealth Toggle"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Enter Reckoning Mode', button(Keys.KEY_X)), name('Quick Mana Potion', button(Keys.KEY_E)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Shoulder Camera', button(Keys.KEY_BACKSLASH)), name('Quick Health Potion', button(Keys.KEY_R)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Spells 1-10": [{
+            "action": "button(Keys.KEY_1)", 
+            "icon": "buttons/1", 
+            "id": "item1", 
+            "name": "Equip Spell 1"
+        }, {
+            "action": "button(Keys.KEY_2)", 
+            "icon": "buttons/2", 
+            "id": "item2", 
+            "name": "Equip Spell 2"
+        }, {
+            "action": "button(Keys.KEY_3)", 
+            "icon": "buttons/3", 
+            "id": "item3", 
+            "name": "Equip Spell 3"
+        }, {
+            "action": "button(Keys.KEY_4)", 
+            "icon": "buttons/4", 
+            "id": "item4", 
+            "name": "Equip Spell 4"
+        }, {
+            "action": "button(Keys.KEY_5)", 
+            "icon": "items/flask", 
+            "id": "item5", 
+            "name": "Equip Spell 5"
+        }, {
+            "action": "button(Keys.KEY_6)", 
+            "icon": "items/apple", 
+            "id": "item6", 
+            "name": "Equip Spell 6"
+        }, {
+            "action": "button(Keys.KEY_7)", 
+            "icon": "items/medpack", 
+            "id": "item7", 
+            "name": "Equip Spell 7"
+        }, {
+            "action": "button(Keys.KEY_8)", 
+            "icon": "items/syringe", 
+            "id": "item8", 
+            "name": "Equip Spell 8"
+        }, {
+            "action": "button(Keys.KEY_9)", 
+            "icon": "items/coffee", 
+            "id": "item9", 
+            "name": "Equip Spell 9"
+        }, {
+            "action": "button(Keys.KEY_0)", 
+            "icon": "items/pill", 
+            "id": "item10", 
+            "name": "Equip Spell 10"
+        }], 
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, radialmenu('Spells 1-10'), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_P), button(Keys.KEY_O))))"
+    }, 
+    "pad_right": {
+        "action": "smooth(8, 0.78, 2.0, mouse())"
+    }, 
+    "stick": {
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))", 
+        "name": "Use Equipped Spell"
+    }, 
+    "version": 1.4
+}

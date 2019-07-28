@@ -1,0 +1,60 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(RGRIP, button(Keys.KEY_U), button(Keys.KEY_E))"
+        }, 
+        "B": {
+            "action": "mode(RGRIP, button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_H), button(Keys.KEY_H))"
+        }, 
+        "BACK": {
+            "action": "mode(LGRIP, button(Keys.KEY_KP5), RGRIP, button(Keys.KEY_LEFTALT) and button(Keys.KEY_D), button(Keys.KEY_ESC))"
+        }, 
+        "C": {
+            "action": "mode(RGRIP, button(Keys.KEY_UP), button(Keys.KEY_ESC))"
+        }, 
+        "LB": {
+            "action": "mode(RGRIP, button(Keys.KEY_PAGEDOWN), LGRIP, button(Keys.KEY_LEFTALT) and button(Keys.KEY_M), button(Keys.KEY_TAB))"
+        }, 
+        "RB": {
+            "action": "mode(RGRIP, button(Keys.KEY_PAGEUP), LGRIP, button(Keys.KEY_X), button(Keys.KEY_O))"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "mode(RGRIP, button(Keys.KEY_Q), button(Keys.KEY_ENTER))"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(LGRIP, button(Keys.KEY_LEFTALT) and button(Keys.KEY_J), button(Keys.KEY_C))"
+        }, 
+        "X": {
+            "action": "mode(RGRIP, button(Keys.KEY_J), button(Keys.KEY_R))"
+        }, 
+        "Y": {
+            "action": "mode(RGRIP, button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_T), button(Keys.KEY_T))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {
+        "action": "mode(LT >= 0.7, sens(1.0, -1.0, mouse(ROLL)), None)"
+    }, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))), RGRIP, click(dpad(button(Keys.KEY_INSERT), button(Keys.KEY_DELETE), button(Keys.KEY_END), button(Keys.KEY_HOME))), click(dpad(button(Keys.KEY_M), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_A), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_C), button(Keys.KEY_APOSTROPHE))))"
+    }, 
+    "pad_right": {
+        "action": "mouse()"
+    }, 
+    "stick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_BACKSLASH), button(Keys.KEY_BACKSPACE), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_KP1), button(Keys.KEY_KP3) and button(Keys.KEY_LEFTSHIFT)), dpad(button(Keys.KEY_EQUAL), button(Keys.KEY_MINUS), button(Keys.KEY_KP7), button(Keys.KEY_KP9)))"
+    }, 
+    "trigger_left": {
+        "action": "mode(RGRIP, trigger(254, 255, button(Keys.KEY_DOT)), LGRIP, button(Keys.KEY_COMMA), trigger(200, 255, button(Keys.BTN_LEFT)))"
+    }, 
+    "trigger_right": {
+        "action": "mode(RGRIP, button(Keys.KEY_SLASH), LGRIP, button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_SLASH), trigger(200, 255, button(Keys.BTN_RIGHT)) and trigger(254, 255, button(Keys.BTN_RIGHT)))"
+    }, 
+    "version": 1.4
+}

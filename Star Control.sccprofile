@@ -1,0 +1,98 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(RGRIP, name('Target', button(Keys.KEY_T)), button(Keys.KEY_2))"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_1)"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Afterburners"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Look Around"
+        }, 
+        "RB": {
+            "action": "button(Keys.KEY_F)", 
+            "name": "Activate Special Module"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_C)", 
+            "name": "Interact"
+        }, 
+        "X": {
+            "action": "button(Keys.KEY_3)"
+        }, 
+        "Y": {
+            "action": "button(Keys.KEY_4)"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(RGRIP, dpad(button(Keys.KEY_M), button(Keys.KEY_TAB), button(Keys.KEY_X), button(Keys.KEY_I)), dpad(button(Keys.KEY_SPACE), button(Keys.KEY_LEFTALT), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+    }, 
+    "pad_right": {
+        "action": "mode(RGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "mode(RGRIP, dpad(button(Keys.KEY_KPPLUS), button(Keys.KEY_KPMINUS), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}

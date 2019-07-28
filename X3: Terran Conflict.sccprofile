@@ -1,0 +1,90 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Previous Player Ship', button(Keys.KEY_DELETE)), RGRIP, name('Previous Enemy', button(Keys.KEY_END)), name('Previous Target', button(Keys.KEY_PAGEDOWN)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('Target Info Menu', button(Keys.KEY_I)), RGRIP, name('Change Laser Targeting Mode', button(Keys.KEY_K)), name('Target Object', button(Keys.KEY_T)))"
+        }, 
+        "BACK": {
+            "action": "mode(LGRIP, name('Eject or Enter Ship', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_E)), RGRIP, name('Pause', button(Keys.KEY_SCROLLLOCK)), name('Escape', button(Keys.KEY_ESC)))"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, name('Previous Primary Group', button(Keys.KEY_LEFTBRACE)), RGRIP, name('Previous Secondary Group', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_LEFTBRACE)), name('Boost / Jump', button(Keys.KEY_TAB)))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, name('Next Primary Group', button(Keys.KEY_RIGHTBRACE)), RGRIP, name('Next Secondary Group', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_RIGHTBRACE)), name('Fire Primary', button(Keys.BTN_MIDDLE)))"
+        }, 
+        "RPAD": {
+            "action": "mode(LGRIP, name('Nothing', None), name('Fire Secondary / Crouch', button(Keys.KEY_LEFTCTRL)))"
+        }, 
+        "START": {
+            "action": "mode(LGRIP, name('Next Ammunition', button(Keys.KEY_K)), RGRIP, name('Activate / Deactivate Lock', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_KP5)), button(Keys.KEY_ENTER))"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(RGRIP, name('Radar Mode', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_M)), LGRIP, name('Center Camera', button(Keys.KEY_KP5)), name('Stop Engines', button(Keys.KEY_BACKSPACE)))"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Weapons Menu', button(Keys.KEY_G)), RGRIP, name('Launch Missile', button(Keys.KEY_L)), name('Target Closest Enemy', button(Keys.KEY_E)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Next Player Ship', button(Keys.KEY_INSERT)), RGRIP, name('Next Enemy', button(Keys.KEY_HOME)), name('Next Target', button(Keys.KEY_PAGEUP)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_G), button(Keys.KEY_LEFTALT) and button(Keys.BTN_MIDDLE), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_J), button(Keys.KEY_J))), RGRIP, click(dpad(1, button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_D), button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_M), button(Keys.KEY_K), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_A))), click(dpad(1, button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_D), button(Keys.KEY_DOT), button(Keys.KEY_KPMINUS), button(Keys.KEY_KPPLUS))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_F3), button(Keys.KEY_F1), button(Keys.KEY_F2), button(Keys.KEY_F4))), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "mode(RGRIP, dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)), LGRIP, dpad8(button(Keys.KEY_KP8), button(Keys.KEY_KP2), button(Keys.KEY_KP4), button(Keys.KEY_KP6), button(Keys.KEY_KP7), button(Keys.KEY_KP9), button(Keys.KEY_KP1), button(Keys.KEY_KP3)), dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_Q), button(Keys.KEY_E)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "trigger_right": {
+        "action": "mode(LGRIP, name('Toggle Mouse Steering', button(Keys.BTN_RIGHT)), RGRIP, name('Toggle Flight Assist', trigger(50, 255, button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_SPACE))), button(Keys.KEY_E))"
+    }, 
+    "version": 1.4
+}

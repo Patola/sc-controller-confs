@@ -1,0 +1,91 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, button(Keys.KEY_F), button(Keys.KEY_X))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, button(Keys.KEY_V), button(Keys.KEY_E))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, button(Keys.KEY_1), button(Keys.KEY_SPACE))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, button(Keys.KEY_B), button(Keys.KEY_LEFTCTRL))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_C)"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, button(Keys.KEY_T), button(Keys.KEY_R))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Health', button(Keys.KEY_Q)), button(Keys.KEY_Z))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(button(Keys.KEY_TAB), button(Keys.KEY_M), button(Keys.KEY_L), button(Keys.KEY_J))), click(dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_3), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_4))), smooth(8, 0.78, 2.0, sens(1.4, 1.4, mouse())))"
+    }, 
+    "stick": {
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}

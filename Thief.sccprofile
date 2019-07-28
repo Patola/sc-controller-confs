@@ -1,0 +1,149 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Drop Down', button(Keys.KEY_X)), name('Crouch', button(Keys.KEY_C)))"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_E)", 
+            "name": "Interact"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, name('Previous Weapon', mouse(Rels.REL_WHEEL, -1)), name('Climb / Jump / Swoop', button(Keys.KEY_SPACE)))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, name('Next Weapon', mouse(Rels.REL_WHEEL, 1)), name('Sneak', button(Keys.KEY_LEFTCTRL)))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Run"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.KEY_V)", 
+            "name": "Dodge"
+        }, 
+        "START": {
+            "action": "mode(LGRIP, name('Open Mini-Map', button(Keys.KEY_M)), button(Keys.KEY_ENTER))"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Takedown"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Takedown', button(Keys.KEY_Q)), name('Focus', button(Keys.KEY_F)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Zoom / Observe', button(Keys.KEY_Y)), name('Mel\\xe9e Attack', button(Keys.KEY_R)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Thief": [{
+            "action": "button(Keys.KEY_1)", 
+            "icon": "weapons/baseball-bat", 
+            "id": "item1", 
+            "name": "Blunt Arrow"
+        }, {
+            "action": "button(Keys.KEY_2)", 
+            "icon": "weapons/brass-knuckles", 
+            "id": "item2", 
+            "name": "Broadhead Arrow"
+        }, {
+            "action": "button(Keys.KEY_3)", 
+            "icon": "weapons/bow-arrow", 
+            "id": "item3", 
+            "name": "Sawtooth Arrow"
+        }, {
+            "action": "button(Keys.KEY_4)", 
+            "icon": "weapons/missile-swarm", 
+            "id": "item4", 
+            "name": "Fire Arrow"
+        }, {
+            "action": "button(Keys.KEY_5)", 
+            "icon": "weapons/grenade", 
+            "id": "item5", 
+            "name": "Blast Arrow"
+        }, {
+            "action": "button(Keys.KEY_6)", 
+            "icon": "items/flask", 
+            "id": "item6", 
+            "name": "Water Arrow"
+        }, {
+            "action": "button(Keys.KEY_7)", 
+            "icon": "items/syringe", 
+            "id": "item7", 
+            "name": "Choke Arrow"
+        }, {
+            "action": "button(Keys.KEY_8)", 
+            "icon": "weapons/crowbar", 
+            "id": "item8", 
+            "name": "Rope Arrow"
+        }, {
+            "action": "button(Keys.KEY_9)", 
+            "icon": "weapons/stun-grenade", 
+            "id": "item9", 
+            "name": "Flash Bomb"
+        }, {
+            "action": "name('Throwable', None)", 
+            "icon": "weapons/switch-weapon", 
+            "id": "item10", 
+            "name": "Throwable"
+        }], 
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_F1), button(Keys.KEY_M), button(Keys.KEY_H), button(Keys.KEY_G))), name('Arrows', gridmenu('Thief')))"
+    }, 
+    "pad_right": {
+        "action": "smooth(8, 0.78, 2.0, sens(1.5, 1.5, mouse()))"
+    }, 
+    "stick": {
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}

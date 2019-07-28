@@ -1,0 +1,60 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(RGRIP, button(Keys.KEY_7), button(Keys.KEY_Q))"
+        }, 
+        "B": {
+            "action": "mode(RGRIP, button(Keys.KEY_DOT), button(Keys.KEY_Z))"
+        }, 
+        "BACK": {
+            "action": "mode(RGRIP, button(Keys.KEY_RIGHTBRACE), button(Keys.KEY_TAB))"
+        }, 
+        "C": {
+            "action": "mode(RGRIP, button(Keys.KEY_F), button(Keys.KEY_E))"
+        }, 
+        "LB": {
+            "action": "mode(RGRIP, button(Keys.KEY_3), button(Keys.KEY_LEFTSHIFT))"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_V)"
+        }, 
+        "RB": {
+            "action": "mode(RGRIP, button(Keys.KEY_4), button(Keys.KEY_SPACE))"
+        }, 
+        "START": {
+            "action": "mode(RGRIP, button(Keys.KEY_LEFTBRACE), button(Keys.KEY_ESC))"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_LEFTALT)"
+        }, 
+        "X": {
+            "action": "mode(RGRIP, button(Keys.KEY_8), button(Keys.BTN_MIDDLE))"
+        }, 
+        "Y": {
+            "action": "mode(RGRIP, button(Keys.KEY_I), button(Keys.KEY_X))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {
+        "action": "mode(X, sens(-2.0, -2.0, -2.0, mouse(ROLL)), None)"
+    }, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "mode(RGRIP, click(dpad(button(Keys.KEY_K), button(Keys.KEY_7), button(Keys.KEY_8), button(Keys.KEY_B))), click(dpad(button(Keys.KEY_5), button(Keys.KEY_O), button(Keys.KEY_BACKSLASH), button(Keys.KEY_6))))"
+    }, 
+    "pad_right": {
+        "action": "mode(RGRIP, click(dpad(button(Keys.KEY_H), button(Keys.KEY_M), button(Keys.KEY_L), button(Keys.KEY_J))), mouse())"
+    }, 
+    "stick": {
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+    }, 
+    "trigger_left": {
+        "action": "mode(RGRIP, trigger(50, 255, button(Keys.KEY_1)), trigger(50, 255, button(Keys.BTN_LEFT)))"
+    }, 
+    "trigger_right": {
+        "action": "mode(RGRIP, trigger(50, 255, button(Keys.KEY_2)), trigger(50, 255, button(Keys.BTN_RIGHT)))"
+    }, 
+    "version": 1.4
+}
