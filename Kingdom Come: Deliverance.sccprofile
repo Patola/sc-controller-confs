@@ -2,47 +2,42 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_F)", 
-            "name": "Kick"
+            "action": "mode(LGRIP, name('Move Item', button(Keys.KEY_X)), name('Special Attack', button(Keys.KEY_F)))"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)", 
-            "name": "Use"
+            "action": "mode(LGRIP, name('Horse', button(Keys.KEY_B)), name('Accept / Use', button(Keys.KEY_E)))"
         }, 
         "BACK": {
-            "action": "mode(RGRIP, name('Suicide', button(Keys.KEY_K)), name('Escape', button(Keys.KEY_ESC)))"
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
-        }, 
-        "LGRIP": {
-            "action": "button(Keys.KEY_LEFTALT)"
+            "action": "mode(LGRIP, name('Draw Melee Weapon', button(Keys.KEY_1)), name('Jump', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
+            "action": "mode(LGRIP, name('Draw range weapon', button(Keys.KEY_2)), name('Block', button(Keys.KEY_Q)))"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint"
         }, 
         "RPAD": {
-            "action": "button(Keys.KEY_Q)", 
-            "name": "Execute"
+            "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_Q)", 
-            "name": "Execute"
+            "action": "mode(LGRIP, name('Reset Alchemy Bench', button(Keys.KEY_R)), name('Toggle Crouch', button(Keys.KEY_C)))"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "mode(LGRIP, name('Surrender', button(Keys.KEY_G)), name('Unlock target', button(Keys.BTN_MIDDLE)))"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_G)"
+            "action": "mode(LGRIP, name('Open Skip Time/Help', button(Keys.KEY_T)), name('Lock on opponent', button(Keys.KEY_TAB)))"
         }
     }, 
     "cpad": {}, 
@@ -82,7 +77,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(button(Keys.KEY_3), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_4)))"
+        "action": "mode(LGRIP, click(dpad(1, mouse(Rels.REL_WHEEL, 1), mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_J), button(Keys.KEY_P))), click(dpad(1, button(Keys.KEY_M), button(Keys.KEY_I), button(Keys.KEY_J), button(Keys.KEY_P))))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"

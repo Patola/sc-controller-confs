@@ -31,13 +31,13 @@
             "name": "Walk"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)"
+            "action": "button(Keys.KEY_TAB)"
         }, 
         "START": {
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_TAB)"
+            "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "X": {
             "action": "button(Keys.KEY_Q)", 

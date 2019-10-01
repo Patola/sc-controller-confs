@@ -32,14 +32,14 @@
             "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
-            "action": "feedback(BOTH, 512.0, hold(name('Map', button(Keys.KEY_M)), button(Keys.KEY_ENTER)))"
+            "action": "feedback(BOTH, 512.0, hold(name('Map', button(Keys.KEY_M)), mode(LGRIP, name('Some Menu', button(Keys.KEY_P)), button(Keys.KEY_ENTER))))"
         }, 
         "STICKPRESS": {
             "action": "button(Keys.KEY_Z)", 
             "name": "Build Menu"
         }, 
         "X": {
-            "action": "hold(name('Reload', button(Keys.KEY_R)), name('Mel\\xe9e', button(Keys.KEY_Q)))"
+            "action": "hold(name('Reload', button(Keys.KEY_R)), name('Melee', button(Keys.KEY_Q)))"
         }, 
         "Y": {
             "action": "button(Keys.KEY_G)", 
