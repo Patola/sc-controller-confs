@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_C)"
+            "action": "mode(LGRIP, button(Keys.KEY_7), RGRIP, button(Keys.KEY_MINUS), button(Keys.KEY_3))"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)"
+            "action": "mode(LGRIP, button(Keys.KEY_6), RGRIP, button(Keys.KEY_0), button(Keys.KEY_2))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,28 +15,29 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
+            "action": "mode(RGRIP, name('Show Target Info', button(Keys.KEY_LEFTCTRL)), LGRIP, name('Place Ping Beacon', button(Keys.KEY_SLASH)), name('Previous Party Member', button(Keys.KEY_LEFTBRACE)))"
+        }, 
+        "LPAD": {
+            "action": "button(Keys.KEY_APOSTROPHE)", 
+            "name": "Highlight characters"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
-        }, 
-        "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "mode(RGRIP, name('Show world tooltips', button(Keys.KEY_RIGHTCTRL)), name('Next Party Member', button(Keys.KEY_RIGHTBRACE)))"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)"
+            "action": "mode(LGRIP, name('Destruction Toggle', button(Keys.KEY_LEFTCTRL)), name('Toggle Tactical Camera', button(Keys.KEY_O)))"
         }, 
         "START": {
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_C)"
+            "action": "mode(RGRIP, name('Toggle Sneak Mode', button(Keys.KEY_C)), name('Toggle Combat Mode', button(Keys.KEY_TAB)))"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "mode(LGRIP, button(Keys.KEY_8), RGRIP, button(Keys.KEY_EQUAL), button(Keys.KEY_4))"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_G)"
+            "action": "mode(LGRIP, button(Keys.KEY_5), RGRIP, button(Keys.KEY_9), button(Keys.KEY_1))"
         }
     }, 
     "cpad": {}, 
@@ -76,13 +77,13 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+        "action": "mode(RGRIP, click(dpad(1, button(Keys.KEY_F3), button(Keys.KEY_F1), button(Keys.KEY_F2), button(Keys.KEY_F4))), click(dpad(1, button(Keys.KEY_GRAVE), button(Keys.KEY_LEFTCTRL), button(Keys.KEY_LEFTSHIFT), button(Keys.KEY_RIGHTSHIFT))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, mouse())"
+        "action": "mode(LGRIP, sens(0.5, -0.5, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+        "action": "mode(RGRIP, dpad(button(Keys.KEY_PAGEUP), button(Keys.KEY_PAGEDOWN), button(Keys.KEY_DELETE), button(Keys.KEY_END)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_LEFT))"

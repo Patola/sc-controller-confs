@@ -2,10 +2,12 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_C)"
+            "action": "button(Keys.KEY_LEFTALT)", 
+            "name": "Eagle Eye"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)"
+            "action": "button(Keys.KEY_E)", 
+            "name": "Interaction"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,10 +17,12 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Laser"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
+            "action": "button(Keys.KEY_X)", 
+            "name": "Use Ship Perk"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)"
@@ -30,13 +34,15 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_C)"
+            "action": "mode(LGRIP, name('Switch Modes', button(Keys.KEY_LEFTCTRL)), name('Switch Camera', button(Keys.KEY_C)))"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "button(Keys.KEY_CAPSLOCK)", 
+            "name": "Ring Menu"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_G)"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Lock"
         }
     }, 
     "cpad": {}, 
@@ -76,13 +82,13 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_T), button(Keys.KEY_I), button(Keys.KEY_P), button(Keys.KEY_Y))), click(dpad(1, button(Keys.KEY_J), button(Keys.KEY_M), button(Keys.KEY_B), button(Keys.KEY_K))))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"
     }, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_R), button(Keys.KEY_F), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_LEFT))"

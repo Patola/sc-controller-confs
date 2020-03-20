@@ -17,8 +17,11 @@
         "LB": {
             "action": "button(Keys.KEY_SPACE)"
         }, 
-        "RB": {
+        "LGRIP": {
             "action": "button(Keys.KEY_LEFTCTRL)"
+        }, 
+        "RB": {
+            "action": "button(Keys.KEY_TAB)"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)"
@@ -76,7 +79,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+        "action": "sens(0.5, -0.5, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL)))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"

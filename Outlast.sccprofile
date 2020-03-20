@@ -2,8 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_F)", 
-            "name": "Toggle Nightvision"
+            "action": "mode(LGRIP, name('Heal', button(Keys.KEY_H)), name('Toggle Nightvision', button(Keys.KEY_F)))"
         }, 
         "B": {
             "action": "mode(LGRIP, name('Show Notes', button(Keys.KEY_N)), name('Lean Right', button(Keys.KEY_E)))"
@@ -18,6 +17,10 @@
         "LB": {
             "action": "button(Keys.KEY_SPACE)", 
             "name": "Jump"
+        }, 
+        "LPAD": {
+            "action": "button(Keys.KEY_V)", 
+            "name": "Microphone"
         }, 
         "RB": {
             "action": "button(Keys.KEY_LEFTCTRL)", 
@@ -34,15 +37,14 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_TAB)", 
-            "name": "Show Reporter's Notebook"
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Hide in Grass"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Show Documents', button(Keys.KEY_N)), name('Lean Left', button(Keys.KEY_Q)))"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_R)", 
-            "name": "Reload Batteries"
+            "action": "mode(LGRIP, name('Reload Batteries', button(Keys.KEY_R)), name('Inventory', button(Keys.KEY_TAB)))"
         }
     }, 
     "cpad": {}, 

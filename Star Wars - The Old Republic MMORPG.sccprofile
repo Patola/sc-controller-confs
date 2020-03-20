@@ -2,7 +2,8 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_C)"
+            "action": "button(Keys.KEY_F)", 
+            "name": "Take Cover"
         }, 
         "B": {
             "action": "button(Keys.KEY_E)"
@@ -15,10 +16,10 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
+            "action": "mode(LGRIP, name('Previous', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_TAB)), button(Keys.KEY_SPACE))"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
+            "action": "mode(LGRIP, name('Next', button(Keys.KEY_TAB)), button(Keys.KEY_LEFTCTRL))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)"
@@ -76,7 +77,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+        "action": "click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3)))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"

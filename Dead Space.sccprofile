@@ -2,7 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, button(Keys.KEY_F), button(Keys.KEY_X))"
+            "action": "mode(LGRIP, button(Keys.KEY_X), button(Keys.KEY_F))"
         }, 
         "B": {
             "action": "mode(LGRIP, button(Keys.KEY_V), button(Keys.KEY_E))"

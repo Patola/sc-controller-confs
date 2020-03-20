@@ -24,14 +24,14 @@
             "action": "button(Keys.KEY_LEFTSHIFT)"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)"
+            "action": "button(Keys.KEY_LEFTALT)"
         }, 
         "START": {
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_LEFTALT)", 
-            "name": "Zoom"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Circular Menu"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Previous Weapon', mouse(Rels.REL_WHEEL, -1)), name('Health Elixir', button(Keys.KEY_R)))"
@@ -78,10 +78,10 @@
         }]
     }, 
     "pad_left": {
-        "action": "dpad(1, button(Keys.KEY_B), button(Keys.KEY_J), button(Keys.KEY_N), button(Keys.KEY_N))"
+        "action": "click(dpad(1, button(Keys.KEY_B), button(Keys.KEY_J), button(Keys.KEY_N), button(Keys.KEY_N)))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, mouse())"
+        "action": "smooth(8, 0.78, 2.0, sens(1.4, 1.4, mouse()))"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"

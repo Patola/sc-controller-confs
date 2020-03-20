@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_C)"
+            "action": "mode(LGRIP, name('Animus Pulse', button(Keys.KEY_V)), name('Assassinate', button(Keys.KEY_F)))"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)"
+            "action": "mode(LGRIP, name('Climb Up', button(Keys.KEY_LEFTALT)), name('Primary Interaction', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,13 +15,16 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Dodge"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
+            "action": "button(Keys.KEY_C)", 
+            "name": "Crouch"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Shield"
         }, 
         "RPAD": {
             "action": "button(Keys.BTN_MIDDLE)"
@@ -30,13 +33,15 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_C)"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Lock Target"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "button(Keys.KEY_R)", 
+            "name": "Smoke Screen"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_G)"
+            "action": "mode(LGRIP, name('Pass TIme', button(Keys.KEY_M)), name('Whistle / Call Mount', button(Keys.KEY_Q)))"
         }
     }, 
     "cpad": {}, 
@@ -76,7 +81,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_TAB), button(Keys.KEY_Y))), click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"

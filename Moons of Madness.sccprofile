@@ -2,10 +2,12 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_C)"
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Crouch"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)"
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Focus / Zoom"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,13 +17,16 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
+            "action": "button(Keys.KEY_F)", 
+            "name": "Flashlight"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
+            "action": "button(Keys.KEY_TAB)", 
+            "name": "Biogage"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Run"
         }, 
         "RPAD": {
             "action": "button(Keys.BTN_MIDDLE)"
@@ -30,13 +35,16 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_C)"
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Crouch"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "button(Keys.KEY_O)", 
+            "name": "Objective Reminder"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_G)"
+            "action": "button(Keys.KEY_T)", 
+            "name": "Answer Radio"
         }
     }, 
     "cpad": {}, 
@@ -85,10 +93,12 @@
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))", 
+        "name": "Interact"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))", 
+        "name": "Scan"
     }, 
     "version": 1.4
 }

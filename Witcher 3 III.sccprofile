@@ -30,8 +30,7 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_LEFTCTRL)", 
-            "name": "Toggle Walk / Run"
+            "action": "mode(LGRIP, button(Keys.KEY_N), name('Remaining Sign', button(Keys.KEY_7)))"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Quen 4', button(Keys.KEY_6)), name('Dodge', button(Keys.KEY_COMMA)))"
@@ -89,7 +88,7 @@
         "action": "mode(LGRIP, name('Strong Attack', trigger(50, 255, button(Keys.KEY_KPDOT))), name('Fast Attack', trigger(254, 255, button(Keys.BTN_LEFT))))"
     }, 
     "trigger_right": {
-        "action": "mode(LGRIP, name('Axii', button(Keys.KEY_7)), name('Parry', trigger(50, 255, button(Keys.BTN_RIGHT))))"
+        "action": "mode(LGRIP, name('Dodge', button(Keys.KEY_COMMA)), name('Parry', button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }

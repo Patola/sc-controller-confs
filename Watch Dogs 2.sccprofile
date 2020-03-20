@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_C)"
+            "action": "mode(LGRIP, name('Smartphone', button(Keys.KEY_TAB)), name('Melee / Autotakedown', button(Keys.KEY_F)))"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)"
+            "action": "mode(LGRIP, name('Net Hack', button(Keys.KEY_V)), name('Interact / Enter Vehicle', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,13 +15,16 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Climb / Vault"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
+            "action": "button(Keys.KEY_C)", 
+            "name": "Take Cover"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint"
         }, 
         "RPAD": {
             "action": "button(Keys.BTN_MIDDLE)"
@@ -30,13 +33,13 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_C)"
+            "action": "mode(LGRIP, name('Emotes Grid', button(Keys.KEY_Z)), name('Equipment Grid', button(Keys.KEY_Q)))"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "mode(LGRIP, name('Control RC / Camera', button(Keys.KEY_X)), name('Reload Weapon', button(Keys.KEY_R)))"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_G)"
+            "action": "mode(LGRIP, name('Profile Target', button(Keys.BTN_MIDDLE)), name('Draw / Holster Weapon', button(Keys.KEY_T)))"
         }
     }, 
     "cpad": {}, 
@@ -76,10 +79,10 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_O), button(Keys.KEY_I), button(Keys.KEY_U), button(Keys.KEY_MINUS))), click(dpad(1, button(Keys.KEY_H), button(Keys.KEY_M), button(Keys.KEY_B), button(Keys.KEY_J))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, mouse())"
+        "action": "mode(LGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"

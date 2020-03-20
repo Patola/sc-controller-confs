@@ -2,7 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Change Seat', button(Keys.KEY_C)), name('Mel\\xe9e', button(Keys.KEY_V)))"
+            "action": "mode(LGRIP, name('Change Seat', button(Keys.KEY_C)), name('Melee', button(Keys.KEY_V)))"
         }, 
         "B": {
             "action": "mode(LGRIP, name('Secondary Use', button(Keys.KEY_Q)), name('Use', button(Keys.KEY_E)))"
@@ -79,19 +79,19 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, dpad(button(Keys.KEY_J), button(Keys.KEY_Y), button(Keys.KEY_X), button(Keys.KEY_X)), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_L), button(Keys.KEY_K))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_J), button(Keys.KEY_Y), button(Keys.KEY_X), button(Keys.KEY_X))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_L), button(Keys.KEY_K))))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, sens(0.7, 0.7, mouse()))"
     }, 
     "stick": {
-        "action": "deadzone(ROUND, 15001, dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+        "action": "mode(LGRIP, dpad(None, None, button(Keys.KEY_LEFTCTRL), button(Keys.KEY_LEFTALT)), deadzone(ROUND, 15001, dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+        "action": "mode(LGRIP, name('Weapon Mode', trigger(254, 255, button(Keys.KEY_O))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }

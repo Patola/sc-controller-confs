@@ -43,7 +43,7 @@
         "action": "click(dpad(hatup(Axes.ABS_HAT0Y), hatdown(Axes.ABS_HAT0Y), hatleft(Axes.ABS_HAT0X), hatright(Axes.ABS_HAT0X)))"
     }, 
     "pad_right": {
-        "action": "XY(axis(Axes.ABS_RX), raxis(Axes.ABS_RY))"
+        "action": "sens(4.0, 6.0, XY(axis(Axes.ABS_RX), raxis(Axes.ABS_RY)))"
     }, 
     "stick": {
         "action": "XY(axis(Axes.ABS_X), raxis(Axes.ABS_Y))"
