@@ -31,7 +31,8 @@
             "action": "mode(LGRIP, name('P.I.T.', button(Keys.KEY_TAB)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, name('Exit', button(Keys.KEY_Y)), name('Run / Hold Breath', button(Keys.KEY_LEFTSHIFT)))"
+            "action": "name('Run / Hold Breath', button(Keys.KEY_LEFTSHIFT))", 
+            "name": "Run / Hold Breath"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Weapon Change Fire Mode', button(Keys.KEY_V)), name('Reload / Holster Weapon', button(Keys.KEY_R)))"
@@ -89,7 +90,7 @@
         "action": "mode(LGRIP, trigger(254, 255, button(Keys.BTN_MIDDLE)), trigger(254, 255, button(Keys.BTN_LEFT)))"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+        "action": "mode(LGRIP, name('Mining Mode', trigger(254, 255, button(Keys.KEY_M))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }

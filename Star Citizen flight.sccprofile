@@ -90,7 +90,7 @@
         "action": "mode(LGRIP, trigger(254, 255, button(Keys.BTN_MIDDLE)), trigger(254, 255, button(Keys.BTN_LEFT)))"
     }, 
     "trigger_right": {
-        "action": "mode(LGRIP, name('Mining Mode', trigger(254, 255, button(Keys.KEY_M))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
+        "action": "mode(LGRIP, name('Mouse Mode', button(Keys.KEY_7)), trigger(50, 255, button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }
