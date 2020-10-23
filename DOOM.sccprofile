@@ -28,7 +28,7 @@
             "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
-            "action": "button(Keys.KEY_ENTER)"
+            "action": "mode(LGRIP, name('Map', button(Keys.KEY_TAB)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
             "action": "button(Keys.KEY_LEFTALT)", 
@@ -38,7 +38,7 @@
             "action": "mode(LGRIP, button(Keys.KEY_F1), name('Reload', button(Keys.KEY_R)))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('BFG', button(Keys.KEY_T)), button(Keys.KEY_Q))"
+            "action": "mode(LGRIP, name('BFG', button(Keys.KEY_T)), name('Switch Weapon / Weapon Wheel', button(Keys.KEY_Q)))"
         }
     }, 
     "cpad": {}, 

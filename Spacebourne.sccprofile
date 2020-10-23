@@ -2,8 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_LEFTALT)", 
-            "name": "Eagle Eye"
+            "action": "mode(LGRIP, name('Skill Atlas', button(Keys.KEY_V)), name('Eagle Eye', button(Keys.KEY_LEFTALT)))"
         }, 
         "B": {
             "action": "button(Keys.KEY_E)", 
@@ -28,7 +27,8 @@
             "action": "button(Keys.KEY_LEFTSHIFT)"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)"
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Change Mode/Auto"
         }, 
         "START": {
             "action": "button(Keys.KEY_ENTER)"
@@ -37,18 +37,67 @@
             "action": "mode(LGRIP, name('Switch Modes', button(Keys.KEY_LEFTCTRL)), name('Switch Camera', button(Keys.KEY_C)))"
         }, 
         "X": {
-            "action": "button(Keys.KEY_CAPSLOCK)", 
-            "name": "Ring Menu"
+            "action": "mode(LGRIP, name('Diplomacy Panel', button(Keys.KEY_L)), name('Ring Menu', button(Keys.KEY_CAPSLOCK)))"
         }, 
         "Y": {
-            "action": "button(Keys.BTN_MIDDLE)", 
-            "name": "Lock"
+            "action": "mode(LGRIP, name('News', button(Keys.KEY_N)), name('Lock', button(Keys.BTN_MIDDLE)))"
         }
     }, 
     "cpad": {}, 
     "gyro": {}, 
     "is_template": false, 
     "menus": {
+        "Spacebourne": [{
+            "action": "button(Keys.KEY_0)", 
+            "icon": "buttons/CIRCLE", 
+            "id": "item1", 
+            "name": "0"
+        }, {
+            "action": "button(Keys.KEY_1)", 
+            "icon": "buttons/1", 
+            "id": "item2", 
+            "name": "1"
+        }, {
+            "action": "button(Keys.KEY_2)", 
+            "icon": "buttons/2", 
+            "id": "item3", 
+            "name": "2"
+        }, {
+            "action": "button(Keys.KEY_3)", 
+            "icon": "buttons/3", 
+            "id": "item4", 
+            "name": "3"
+        }, {
+            "action": "button(Keys.KEY_4)", 
+            "icon": "buttons/4", 
+            "id": "item5", 
+            "name": "4"
+        }, {
+            "action": "button(Keys.KEY_5)", 
+            "icon": "buttons/SQUARE", 
+            "id": "item6", 
+            "name": "5"
+        }, {
+            "action": "button(Keys.KEY_6)", 
+            "icon": "buttons/TRIANGLE", 
+            "id": "item7", 
+            "name": "6"
+        }, {
+            "action": "button(Keys.KEY_7)", 
+            "icon": "buttons/snesX", 
+            "id": "item8", 
+            "name": "7"
+        }, {
+            "action": "button(Keys.KEY_8)", 
+            "icon": "buttons/snesY", 
+            "id": "item9", 
+            "name": "8"
+        }, {
+            "action": "button(Keys.KEY_9)", 
+            "icon": "buttons/B", 
+            "id": "item10", 
+            "name": "9"
+        }], 
         "Two Worlds": [{
             "action": "button(Keys.KEY_F1)", 
             "icon": "weapons/reticule", 
@@ -85,7 +134,7 @@
         "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_T), button(Keys.KEY_I), button(Keys.KEY_P), button(Keys.KEY_Y))), click(dpad(1, button(Keys.KEY_J), button(Keys.KEY_M), button(Keys.KEY_B), button(Keys.KEY_K))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, mouse())"
+        "action": "mode(LGRIP, feedback(RIGHT, 3023, position(-10, 10, gridmenu('Spacebourne'))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
         "action": "mode(LGRIP, dpad(button(Keys.KEY_R), button(Keys.KEY_F), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
@@ -94,7 +143,7 @@
         "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+        "action": "mode(LGRIP, name('Eagle Eye', trigger(254, 255, button(Keys.KEY_LEFTALT))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }

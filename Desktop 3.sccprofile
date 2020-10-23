@@ -2,7 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_C)"
+            "action": "button(Keys.KEY_F)"
         }, 
         "B": {
             "action": "button(Keys.KEY_E)"
@@ -15,10 +15,10 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_LEFTCTRL))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)"
