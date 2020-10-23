@@ -1,0 +1,95 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Swap Weapon', button(Keys.KEY_TAB)), name('Pick Up Nearby Items', button(Keys.KEY_G)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('World Skill', button(Keys.KEY_5)), name('Interact', button(Keys.KEY_F)))"
+        }, 
+        "BACK": {
+            "action": "mode(LGRIP, name('Tactical View', button(Keys.KEY_LEFTALT) and button(Keys.KEY_T)), name('Escape', button(Keys.KEY_ESC)))"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Use Nearby Cover', button(Keys.KEY_SPACE)))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Execute', button(Keys.KEY_X)))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Hold Position"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_LEFTALT)", 
+            "name": "Highlight Items"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Open Emote Wheel', button(Keys.KEY_6)), name('Reload', button(Keys.KEY_R)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Heroic Deeds Windows', button(Keys.KEY_H)), name('Use Inoculator', button(Keys.KEY_O)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_K), button(Keys.KEY_J))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL)), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}

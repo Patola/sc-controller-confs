@@ -1,0 +1,94 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "feedback(BOTH, 2048.0, hold(name('Special Attack 3', button(Keys.KEY_K)), mode(LGRIP, name('Special Attack 2 / Disarm', button(Keys.KEY_J)), name('Special Attack, Hack and Board', button(Keys.KEY_H)))))"
+        }, 
+        "B": {
+            "action": "feedback(BOTH, 2063.0, hold(name('Defend at Location', button(Keys.KEY_SEMICOLON)), mode(LGRIP, name('Squadron Defend', button(Keys.KEY_N)), name('Move to Location', button(Keys.KEY_L)))))"
+        }, 
+        "BACK": {
+            "action": "mode(LGRIP, name('Toggle Multi Select Filter', button(Keys.KEY_GRAVE)), name('Escape', button(Keys.KEY_ESC)))"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, name('Previous Ship', button(Keys.KEY_LEFTBRACE)), button(Keys.KEY_SPACE))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, name('Next Ship', button(Keys.KEY_RIGHTBRACE)), button(Keys.KEY_LEFTCTRL))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_M)", 
+            "name": "Shop Map"
+        }, 
+        "X": {
+            "action": "feedback(BOTH, 2069.0, hold(name('System Processes Cylon', button(Keys.KEY_Y)), mode(LGRIP, name('Recall Squadron', button(Keys.KEY_R)), name('Repair Subsystem', button(Keys.KEY_U)))))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Squadron Select Target', button(Keys.KEY_T)), name('Turret Focus Fire', button(Keys.KEY_T)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(button(Keys.KEY_BACKSLASH), button(Keys.KEY_F), button(Keys.KEY_B), button(Keys.KEY_N))), click(dpad(1, button(Keys.KEY_V), button(Keys.KEY_Z), button(Keys.KEY_X), button(Keys.KEY_C))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_PAGEUP), button(Keys.KEY_PAGEDOWN), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}
