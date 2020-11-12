@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_F)"
+            "action": "mode(LGRIP, name('Companion 1 Special Ability', button(Keys.KEY_C)), name('Quick Melee', button(Keys.KEY_T)))"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)"
+            "action": "mode(LGRIP, name('Companion Attack', button(Keys.KEY_X)), name('Use / Interact', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -30,13 +30,14 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_C)"
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Tactical Time Dilation"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "mode(LGRIP, name('Companion 2 Special Ability', button(Keys.KEY_V)), name('Reload / (Hold) Holster', button(Keys.KEY_R)))"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_G)"
+            "action": "mode(LGRIP, name('Companion Move / (HOLD) Follow', button(Keys.KEY_Z)), name('Inhaler', button(Keys.KEY_F)))"
         }
     }, 
     "cpad": {}, 
@@ -76,7 +77,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+        "action": "click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3)))"
     }, 
     "pad_right": {
         "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
