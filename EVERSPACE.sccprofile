@@ -78,16 +78,16 @@
         }]
     }, 
     "pad_left": {
-        "action": "dpad(mouse(Rels.REL_WHEEL, 1), mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_R), button(Keys.KEY_F))"
+        "action": "dpad(mouse(Rels.REL_WHEEL, 1), mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_DOWN), button(Keys.KEY_UP))"
     }, 
     "pad_right": {
-        "action": "mode(RGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "mode(RGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(2.6, 2.6, mouse())))"
     }, 
     "stick": {
         "action": "mode(RGRIP, dpad(button(Keys.KEY_SPACE), button(Keys.KEY_LEFTCTRL), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
-        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
         "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"

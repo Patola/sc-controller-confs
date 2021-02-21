@@ -8,8 +8,7 @@
             "action": "mode(LGRIP, name('Yrden 2', button(Keys.KEY_4)), name('Interact', button(Keys.KEY_E)))"
         }, 
         "BACK": {
-            "action": "button(Keys.KEY_ESC)", 
-            "name": "Escape"
+            "action": "mode(LGRIP, button(Keys.KEY_1), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
@@ -27,7 +26,7 @@
             "action": "mode(LGRIP, name('Lock On Target', button(Keys.KEY_Z)), name('Quick Access Item', button(Keys.BTN_MIDDLE)))"
         }, 
         "START": {
-            "action": "button(Keys.KEY_ENTER)"
+            "action": "mode(LGRIP, button(Keys.KEY_2), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
             "action": "mode(LGRIP, button(Keys.KEY_N), name('Remaining Sign', button(Keys.KEY_7)))"
@@ -85,7 +84,7 @@
         "action": "mode(LGRIP, dpad(1, button(Keys.KEY_R), button(Keys.KEY_F), button(Keys.KEY_1), button(Keys.KEY_2)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
-        "action": "mode(LGRIP, name('Strong Attack', trigger(50, 255, button(Keys.KEY_KPDOT))), name('Fast Attack', trigger(254, 255, button(Keys.BTN_LEFT))))"
+        "action": "mode(LGRIP, name('Strong Attack', trigger(50, 255, button(Keys.KEY_KPDOT))), name('Fast Attack', trigger(254, 255, button(Keys.BTN_MOUSE))))"
     }, 
     "trigger_right": {
         "action": "mode(LGRIP, name('Dodge', button(Keys.KEY_COMMA)), name('Parry', button(Keys.BTN_RIGHT)))"
