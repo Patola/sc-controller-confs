@@ -5,7 +5,7 @@
             "action": "mode(LGRIP, name('Scan Object', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_F)), RGRIP, name('Previous Surface Element', button(Keys.KEY_END)), name('Previous Target', button(Keys.KEY_PAGEDOWN)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Interaction Menu', button(Keys.KEY_F)), RGRIP, name('Container Magnet', button(Keys.KEY_O)), name('Target Object', button(Keys.KEY_T)))"
+            "action": "mode(LGRIP, name('Interaction Menu', button(Keys.KEY_F)), RGRIP, name('Remove Goal', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_G)), name('Target Object', button(Keys.KEY_T)))"
         }, 
         "BACK": {
             "action": "mode(LGRIP, name('Deploy Countermeasures', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_C)), RGRIP, name('Pause', button(Keys.KEY_SCROLLLOCK)), name('Escape', button(Keys.KEY_ESC)))"
@@ -81,7 +81,7 @@
         "action": "mode(RGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_A), button(Keys.KEY_D)), LGRIP, dpad8(button(Keys.KEY_KP8), button(Keys.KEY_KP2), button(Keys.KEY_KP4), button(Keys.KEY_KP6), button(Keys.KEY_KP7), button(Keys.KEY_KP9), button(Keys.KEY_KP1), button(Keys.KEY_KP3)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_Q), button(Keys.KEY_E)))"
     }, 
     "trigger_left": {
-        "action": "mode(RGRIP, name('Secondary Fire and Crouch', button(Keys.KEY_L)), trigger(254, 255, button(Keys.BTN_LEFT)))"
+        "action": "mode(RGRIP, name('Secondary Fire and Crouch', button(Keys.KEY_L)), LGRIP, name('Container Magnet', button(Keys.KEY_O)), trigger(254, 255, button(Keys.BTN_MOUSE)))"
     }, 
     "trigger_right": {
         "action": "mode(LGRIP, name('Toggle Mouse Steering', trigger(50, 255, button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_SPACE))), RGRIP, name('Toggle Flight Assist', trigger(50, 255, button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_SPACE))), trigger(50, 255, button(Keys.BTN_RIGHT)))"

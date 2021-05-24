@@ -1,0 +1,91 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Shield Recharge', button(Keys.KEY_L)), name('Heal', button(Keys.KEY_H)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('Rage', button(Keys.KEY_R)), name('Mark Target', button(Keys.KEY_W)))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, name('Attack Move', button(Keys.KEY_A)), button(Keys.KEY_SPACE))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, name('Select Agents on Screen', button(Keys.KEY_GRAVE)), name('Select All', button(Keys.KEY_LEFTCTRL)))"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(LGRIP, name('Reset Camera Yaw', button(Keys.KEY_BACKSPACE)), name('Stop', button(Keys.KEY_S)))"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Knockback Shot', button(Keys.KEY_P)), name('Smoke Grenade', button(Keys.KEY_T)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Sonic Grenade', button(Keys.KEY_J)), name('Grenade / EMP Grenade', button(Keys.KEY_G)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(RGRIP, click(dpad(1, button(Keys.KEY_U), button(Keys.KEY_V), button(Keys.KEY_N), button(Keys.KEY_O))), click(dpad(1, button(Keys.KEY_C), button(Keys.KEY_Y), button(Keys.KEY_Q), button(Keys.KEY_D))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "mode(RGRIP, dpad(1, button(Keys.KEY_EQUAL), button(Keys.KEY_MINUS), button(Keys.KEY_COMMA), button(Keys.KEY_DOT)), dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}

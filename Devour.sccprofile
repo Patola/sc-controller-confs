@@ -1,0 +1,100 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.KEY_K)", 
+            "name": "Show Keys"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_E)", 
+            "name": "Action"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Jump', button(Keys.KEY_SPACE)))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Crouch', button(Keys.KEY_C)))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_G)", 
+            "name": "Drop"
+        }, 
+        "X": {
+            "action": "button(Keys.KEY_F)", 
+            "name": "Flashlight"
+        }, 
+        "Y": {
+            "action": "button(Keys.KEY_T)", 
+            "name": "Push to Talk"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "click(dpad(1, button(Keys.KEY_KP2), button(Keys.KEY_KP1), button(Keys.KEY_KP3), button(Keys.KEY_KP4)))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(3.0, 3.0, mouse())))"
+    }, 
+    "stick": {
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}

@@ -2,7 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Aard 1', button(Keys.KEY_3)), name('Quick Access Menu', button(Keys.KEY_TAB)))"
+            "action": "mode(LGRIP, name('Aard 1', button(Keys.KEY_3)), name('N', button(Keys.KEY_TAB)))"
         }, 
         "B": {
             "action": "mode(LGRIP, name('Yrden 2', button(Keys.KEY_4)), name('Interact', button(Keys.KEY_E)))"
@@ -29,7 +29,7 @@
             "action": "mode(LGRIP, button(Keys.KEY_2), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, button(Keys.KEY_N), name('Remaining Sign', button(Keys.KEY_7)))"
+            "action": "mode(LGRIP, name('Some Sign 7', button(Keys.KEY_7)), name('Quick Access Menu', button(Keys.KEY_TAB)))"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Quen 4', button(Keys.KEY_6)), name('Dodge', button(Keys.KEY_COMMA)))"
@@ -75,7 +75,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_O), button(Keys.KEY_I), button(Keys.KEY_T), button(Keys.KEY_Y))), click(dpad(1, button(Keys.KEY_H), button(Keys.KEY_M), button(Keys.KEY_BACKSPACE), button(Keys.KEY_V))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_Y), button(Keys.KEY_R), button(Keys.KEY_T), button(Keys.KEY_F))), click(dpad(1, button(Keys.KEY_H), button(Keys.KEY_M), button(Keys.KEY_BACKSPACE), button(Keys.KEY_V))))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"

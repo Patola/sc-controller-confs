@@ -9,7 +9,7 @@
             "action": "button(Keys.KEY_E)"
         }, 
         "BACK": {
-            "action": "mode(RGRIP, button(Keys.KEY_ESC), button(Keys.KEY_2))"
+            "action": "mode(RGRIP, button(Keys.KEY_2), button(Keys.KEY_ESC))"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
@@ -58,7 +58,7 @@
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "trigger(200, 255, button(Keys.BTN_LEFT))"
+        "action": "trigger(200, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
         "action": "trigger(200, 255, button(Keys.BTN_RIGHT))"

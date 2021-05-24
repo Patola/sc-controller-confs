@@ -1,0 +1,92 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Harvest Gatherer', button(Keys.KEY_H)), name('Hack', button(Keys.KEY_V)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('First Aid', button(Keys.KEY_F)), name('Use', button(Keys.KEY_E)))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, name('Previous Weapon / Plasmid', mouse(Rels.REL_WHEEL, -1)), name('Jump and Skyline Attach', button(Keys.KEY_SPACE)))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, name('Next Weapon / Plasmid', mouse(Rels.REL_WHEEL, 1)), name('Crouch and Skyline Reverse', button(Keys.KEY_C)))"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.KEY_Z)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Walk"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Rescue Gatherer', button(Keys.KEY_L)), name('Reload', button(Keys.KEY_R)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Hints', button(Keys.KEY_H)), name('Play Newest Unread Diary', button(Keys.KEY_T)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_8), button(Keys.KEY_5), button(Keys.KEY_6), button(Keys.KEY_7))), click(dpad(1, button(Keys.KEY_LEFTSHIFT), button(Keys.KEY_M), button(Keys.KEY_B), button(Keys.KEY_Q))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL)), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}
