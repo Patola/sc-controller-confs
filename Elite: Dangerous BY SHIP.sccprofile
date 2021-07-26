@@ -1,0 +1,90 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Cycle Next Subsystem', button(Keys.KEY_Y)), RGRIP, name('Internal Panel', button(Keys.KEY_4)), name('Landing Gear', button(Keys.KEY_L)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('Cycle Next Target', button(Keys.KEY_G)), RGRIP, name('Role Panel', button(Keys.KEY_3)), name('Cargo Scoop', button(Keys.KEY_HOME)))"
+        }, 
+        "BACK": {
+            "action": "mode(RGRIP, button(Keys.KEY_BACKSPACE), name('Escape', button(Keys.KEY_ESC)))"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), mode(LGRIP, profile('Elite: Dangerous BY FOOT'), menu('Default.menu')))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), RGRIP, name('Cycle Fire Group', button(Keys.KEY_N)), name('Engine Boost', button(Keys.KEY_TAB)))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), RGRIP, name('Enter FSS Mode', button(Keys.KEY_APOSTROPHE)), name('Toggle Frame Shift Drive', button(Keys.KEY_J)))"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(RGRIP, name('Show GQC Score Screen', button(Keys.KEY_F1)), name('Set Speed To 0%', button(Keys.KEY_X)))"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Select Highest Threat', button(Keys.KEY_H)), RGRIP, name('Comms Panel', button(Keys.KEY_2)), name('Ship Lights', button(Keys.KEY_INSERT)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Select Target Ahead', button(Keys.KEY_T)), RGRIP, name('External Panel', button(Keys.KEY_1)), name('Deploy Hardpoints', button(Keys.KEY_U)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(RGRIP, click(dpad(1, button(Keys.KEY_EQUAL), button(Keys.KEY_MINUS), button(Keys.KEY_PAGEDOWN), button(Keys.KEY_PAGEUP))), LGRIP, click(dpad(1, button(Keys.KEY_0), button(Keys.KEY_7), button(Keys.KEY_8), button(Keys.KEY_9))), click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "mode(RGRIP, name('Thrust', dpad(button(Keys.KEY_R), button(Keys.KEY_F), button(Keys.KEY_Q), button(Keys.KEY_E))), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "mode(LGRIP, name('Toggle Flight Assist', trigger(254, 255, button(Keys.KEY_Z))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
+    }, 
+    "version": 1.4
+}

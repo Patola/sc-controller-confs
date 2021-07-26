@@ -1,0 +1,94 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Lock Camera North / Straighten View Starmap', button(Keys.KEY_N)), name('Enter Construction Mode', button(Keys.KEY_B)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('Inventory', button(Keys.KEY_E)), name('Ctrl', button(Keys.KEY_LEFTCTRL)))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Down', button(Keys.KEY_DOWN)))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(LGRIP, name('Warp', button(Keys.KEY_CAPSLOCK)), name('Sail Mode Unlock/Lock Cursor', button(Keys.KEY_TAB)))"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Switch Conveyor Belts Path', button(Keys.KEY_R)), name('Enter Upgrade Mode', button(Keys.KEY_U)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Turn On/Off the Night Lights', button(Keys.KEY_L)), name('Enter Dismantle Mode', button(Keys.KEY_X)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {
+        "Two Worlds": [{
+            "action": "button(Keys.KEY_F1)", 
+            "icon": "weapons/reticule", 
+            "id": "item1", 
+            "name": "Skills"
+        }, {
+            "action": "button(Keys.KEY_F2)", 
+            "icon": "items/apple", 
+            "id": "item2", 
+            "name": "Inventory"
+        }, {
+            "action": "button(Keys.KEY_F3)", 
+            "icon": "items/heart-bottle", 
+            "id": "item3", 
+            "name": "Magic"
+        }, {
+            "action": "button(Keys.KEY_F4)", 
+            "icon": "media/play.bw", 
+            "id": "item4", 
+            "name": "Quests"
+        }, {
+            "action": "button(Keys.KEY_F5)", 
+            "icon": "driving/pedal2", 
+            "id": "item5", 
+            "name": "Reputation"
+        }, {
+            "action": "button(Keys.KEY_F6)", 
+            "icon": "system/window", 
+            "id": "item6", 
+            "name": "Map"
+        }]
+    }, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_H), button(Keys.KEY_P), button(Keys.KEY_V), button(Keys.KEY_Y))), click(dpad(1, button(Keys.KEY_T), button(Keys.KEY_M), button(Keys.KEY_F), button(Keys.KEY_C))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "stick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}
