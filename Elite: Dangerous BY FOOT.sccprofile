@@ -5,13 +5,13 @@
             "action": "mode(LGRIP, name('Holster Weapon', button(Keys.KEY_U)), name('Secondary Interact', button(Keys.KEY_F)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Secondary Interact', button(Keys.KEY_F)), name('Interact', button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Select Suit Specific Tool', button(Keys.KEY_5)), name('Interact', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "mode(LGRIP, name('Select EnergyLink', button(Keys.KEY_3)), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
-            "action": "hold(menu('Default.menu'), mode(LGRIP, profile('Elite: Dangerous BY MOTORIZED VEHICLE'), menu('Default.menu')))"
+            "action": "hold(menu('Default.menu'), mode(LGRIP, name('profchangevehicle', osd(3.0,2,'Changed to VEHICLE profile'); profile('Elite: Dangerous BY MOTORIZED VEHICLE')), menu('Default.menu')))"
         }, 
         "LB": {
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Jump', button(Keys.KEY_SPACE)))"
@@ -30,10 +30,10 @@
             "action": "mode(LGRIP, name('Select Profile Analyser', button(Keys.KEY_4)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, name('Select Suit Specific Tool', button(Keys.KEY_5)), name('Walk', button(Keys.KEY_SLASH)))"
+            "action": "mode(LGRIP, name('Clear Authority Level', button(Keys.KEY_MINUS)), name('Walk', button(Keys.KEY_SLASH)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Toggle Flashlight', button(Keys.KEY_T)), name('Reload', button(Keys.KEY_R)))"
+            "action": "mode(LGRIP, name('Toggle Flashlight', button(Keys.KEY_T)), name('Reload / Toggle Tool Mode', button(Keys.KEY_R)))"
         }, 
         "Y": {
             "action": "mode(LGRIP, name('Select Next Grenade Type', button(Keys.KEY_TAB)), name('Throw Grenade', button(Keys.KEY_G)))"

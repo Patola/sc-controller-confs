@@ -2,10 +2,12 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Throw Lure', button(Keys.KEY_G)), name('Melee Attack / Eliminate', button(Keys.KEY_F)))"
+            "action": "button(Keys.KEY_2)", 
+            "name": "Pass / Switch to 2nd"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Heal', button(Keys.KEY_Q)), name('Interact', button(Keys.KEY_E)))"
+            "action": "button(Keys.KEY_1)", 
+            "name": "Pass / Switch to 1st"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,13 +17,14 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(LGRIP, name('Previous Weapon', button(Keys.KEY_MINUS)), name('Jump', button(Keys.KEY_SPACE)))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Pass / Switch', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "mode(LGRIP, name('Next Weapon', button(Keys.KEY_EQUAL)), name('Duck', button(Keys.KEY_C)))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Lock On', button(Keys.KEY_LEFTCTRL)))"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint"
         }, 
         "RPAD": {
             "action": "button(Keys.BTN_MIDDLE)"
@@ -29,15 +32,13 @@
         "START": {
             "action": "button(Keys.KEY_ENTER)"
         }, 
-        "STICKPRESS": {
-            "action": "button(Keys.KEY_1)", 
-            "name": "Switch Weapons"
-        }, 
         "X": {
-            "action": "mode(LGRIP, name('Cyber Eye', button(Keys.KEY_Z)), name('Reload', button(Keys.KEY_R)))"
+            "action": "button(Keys.KEY_3)", 
+            "name": "Pass / Switch to 3rd"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Toss a Grenade', button(Keys.BTN_MIDDLE)), name('Toss a Stone', button(Keys.KEY_T)))"
+            "action": "button(Keys.KEY_T)", 
+            "name": "Salute"
         }
     }, 
     "cpad": {}, 
@@ -77,10 +78,10 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(button(Keys.KEY_Z), button(Keys.KEY_M), button(Keys.KEY_9), button(Keys.KEY_0)))"
+        "action": "click(dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"

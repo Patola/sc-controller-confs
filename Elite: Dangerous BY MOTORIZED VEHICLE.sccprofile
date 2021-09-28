@@ -13,7 +13,7 @@
             "name": "Escape"
         }, 
         "C": {
-            "action": "hold(menu('Default.menu'), mode(LGRIP, profile('Elite: Dangerous BY SHIP'), menu('Default.menu')))"
+            "action": "hold(menu('Default.menu'), mode(LGRIP, name('profchangeship', osd(3.0,2,'Changed to SHIP profile'); profile('Elite: Dangerous BY SHIP')), menu('Default.menu')))"
         }, 
         "LB": {
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Accelerate', button(Keys.KEY_E)))"
@@ -31,8 +31,7 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_M)", 
-            "name": "Switch Cockpit Mode"
+            "action": "mode(LGRIP, name('Camera', button(Keys.KEY_LEFTALT) and button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_C)), name('Switch Cockpit Mode', button(Keys.KEY_M)))"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Headlights', button(Keys.KEY_L)), name('HandBrake', button(Keys.KEY_X)))"
@@ -90,7 +89,7 @@
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+        "action": "mode(LGRIP, name('Select', button(Keys.KEY_SPACE)), trigger(50, 255, button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }

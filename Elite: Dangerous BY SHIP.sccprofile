@@ -11,7 +11,7 @@
             "action": "mode(RGRIP, button(Keys.KEY_BACKSPACE), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
-            "action": "hold(menu('Default.menu'), mode(LGRIP, profile('Elite: Dangerous BY FOOT'), menu('Default.menu')))"
+            "action": "hold(menu('Default.menu'), mode(LGRIP, name('profchangefoot', osd(3.0,2,'Changed to FOOT profile'); profile('Elite: Dangerous BY FOOT')), menu('Default.menu')))"
         }, 
         "LB": {
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), RGRIP, name('Cycle Fire Group', button(Keys.KEY_N)), name('Engine Boost', button(Keys.KEY_TAB)))"
@@ -26,7 +26,7 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "mode(RGRIP, name('Show GQC Score Screen', button(Keys.KEY_F1)), name('Set Speed To 0%', button(Keys.KEY_X)))"
+            "action": "mode(RGRIP, name('Show GQC Score Screen', button(Keys.KEY_F1)), LGRIP, name('Camera', button(Keys.KEY_LEFTALT) and button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_C)), name('Set Speed To 0%', button(Keys.KEY_X)))"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Select Highest Threat', button(Keys.KEY_H)), RGRIP, name('Comms Panel', button(Keys.KEY_2)), name('Ship Lights', button(Keys.KEY_INSERT)))"
@@ -84,7 +84,7 @@
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
-        "action": "mode(LGRIP, name('Toggle Flight Assist', trigger(254, 255, button(Keys.KEY_Z))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
+        "action": "mode(LGRIP, name('Toggle Flight Assist', trigger(254, 255, button(Keys.KEY_Z))), RGRIP, name('Select', button(Keys.KEY_SPACE)), trigger(50, 255, button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }

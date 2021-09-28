@@ -51,13 +51,13 @@
         "action": "click(dpad(button(Keys.KEY_Z), button(Keys.KEY_M), mouse(Rels.REL_WHEEL, -1), mouse(Rels.REL_WHEEL, 1)))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, feedback(RIGHT, 256, ball(mouse())))"
+        "action": "smooth(8, 0.78, 2.0, mouse())"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "trigger(170, 255, button(Keys.BTN_LEFT))"
+        "action": "trigger(170, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
         "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"

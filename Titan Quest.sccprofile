@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Throw Lure', button(Keys.KEY_G)), name('Melee Attack / Eliminate', button(Keys.KEY_F)))"
+            "action": "mode(LGRIP, name('Drop Item', button(Keys.KEY_D)), name('Switch Weapons', button(Keys.KEY_W)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Heal', button(Keys.KEY_Q)), name('Interact', button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Activate Portal Stone', button(Keys.KEY_L)), name('Pick Up Items', button(Keys.KEY_A)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,10 +15,10 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(LGRIP, name('Previous Weapon', button(Keys.KEY_MINUS)), name('Jump', button(Keys.KEY_SPACE)))"
+            "action": "mode(LGRIP, name('Previous Skill', button(Keys.KEY_PAGEUP)), name('Pause Game', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "mode(LGRIP, name('Next Weapon', button(Keys.KEY_EQUAL)), name('Duck', button(Keys.KEY_C)))"
+            "action": "mode(LGRIP, name('Next Skill', button(Keys.KEY_PAGEDOWN)), name('Target Pet', button(Keys.KEY_LEFTCTRL)))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)"
@@ -30,14 +30,14 @@
             "action": "button(Keys.KEY_ENTER)"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_1)", 
-            "name": "Switch Weapons"
+            "action": "mode(LGRIP, name('Center View', button(Keys.KEY_KP0)), name('View Items', button(Keys.KEY_Z)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Cyber Eye', button(Keys.KEY_Z)), name('Reload', button(Keys.KEY_R)))"
+            "action": "button(Keys.KEY_R)", 
+            "name": "Drink Help Potion"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Toss a Grenade', button(Keys.BTN_MIDDLE)), name('Toss a Stone', button(Keys.KEY_T)))"
+            "action": "mode(LGRIP, name('Toggle Pet Display', button(Keys.KEY_BACKSPACE)), name('Drink Energy Potion', button(Keys.KEY_E)))"
         }
     }, 
     "cpad": {}, 
@@ -77,13 +77,13 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(button(Keys.KEY_Z), button(Keys.KEY_M), button(Keys.KEY_9), button(Keys.KEY_0)))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_BACKSLASH), button(Keys.KEY_G), button(Keys.KEY_P), button(Keys.KEY_H))), click(dpad(1, button(Keys.KEY_S), button(Keys.KEY_M), button(Keys.KEY_I), button(Keys.KEY_Q))))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+        "action": "mouse()"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
