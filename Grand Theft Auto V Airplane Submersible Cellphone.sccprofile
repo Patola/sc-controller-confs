@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Fast Equip Item', button(Keys.KEY_MINUS)), name('Kick', button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Change Expression (Camera)', button(Keys.KEY_X)), button(Keys.KEY_F))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Use 2', button(Keys.KEY_V)), button(Keys.KEY_F))"
+            "action": "mode(LGRIP, name('Target Right', button(Keys.KEY_KP9)), name('Grappling Hook / VTOL Mode', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,29 +15,29 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(LGRIP, name('Previous Weapon', mouse(Rels.REL_WHEEL, -1)), name('Jump', button(Keys.KEY_SPACE)))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Fire', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "mode(LGRIP, name('Next Weapon', mouse(Rels.REL_WHEEL, 1)), button(Keys.KEY_C))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_LEFTCTRL))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)", 
-            "name": "Use Equipment"
+            "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
-            "action": "mode(LGRIP, name('Heal', button(Keys.KEY_H)), button(Keys.KEY_ENTER))"
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, name('Drop Item', button(Keys.KEY_BACKSPACE)), name('Look Back', button(Keys.KEY_B)))"
+            "action": "button(Keys.KEY_BACKSPACE)", 
+            "name": "Phone Cancel"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Brief Decline', button(Keys.KEY_N)), name('Reload / Repair', button(Keys.KEY_R)))"
+            "action": "mode(LGRIP, name('Target Left', button(Keys.KEY_KP7)), button(Keys.KEY_R))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Track Quest', button(Keys.KEY_T)), name('Survivor Sense', button(Keys.KEY_Q)))"
+            "action": "mode(LGRIP, name('Toggle Aircraft Weapon Camera', button(Keys.KEY_INSERT)), button(Keys.KEY_G))"
         }
     }, 
     "cpad": {}, 
@@ -77,13 +77,13 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_1), button(Keys.KEY_TAB), button(Keys.KEY_3), button(Keys.KEY_2))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_LEFTALT), button(Keys.KEY_U))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_DELETE), button(Keys.KEY_X), button(Keys.KEY_G), button(Keys.KEY_F))), click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, sens(2.0, 2.0, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_KP8), button(Keys.KEY_KP5), button(Keys.KEY_KP4), button(Keys.KEY_KP6)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"

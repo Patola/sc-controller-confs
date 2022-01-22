@@ -2,42 +2,44 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Fast Equip Item', button(Keys.KEY_MINUS)), name('Kick', button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Quickslot 5', button(Keys.KEY_5)), name('Quickslot 3', button(Keys.KEY_3)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Use 2', button(Keys.KEY_V)), button(Keys.KEY_F))"
+            "action": "mode(LGRIP, name('Quickslot 4', button(Keys.KEY_4)), name('Quickslot 2', button(Keys.KEY_2)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
-            "name": "Escape"
+            "name": "Options Menu"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(LGRIP, name('Previous Weapon', mouse(Rels.REL_WHEEL, -1)), name('Jump', button(Keys.KEY_SPACE)))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
         }, 
         "RB": {
-            "action": "mode(LGRIP, name('Next Weapon', mouse(Rels.REL_WHEEL, 1)), button(Keys.KEY_C))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Attack Only Valid Targets', button(Keys.KEY_LEFTCTRL)))"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Hold Position"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)", 
-            "name": "Use Equipment"
+            "action": "button(Keys.KEY_M)", 
+            "name": "Automap"
         }, 
         "START": {
-            "action": "mode(LGRIP, name('Heal', button(Keys.KEY_H)), button(Keys.KEY_ENTER))"
+            "action": "mode(LGRIP, name('Active Skill Swap', button(Keys.KEY_TAB)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, name('Drop Item', button(Keys.KEY_BACKSPACE)), name('Look Back', button(Keys.KEY_B)))"
+            "action": "button(Keys.KEY_LEFTALT)", 
+            "name": "Show Items"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Brief Decline', button(Keys.KEY_N)), name('Reload / Repair', button(Keys.KEY_R)))"
+            "action": "mode(LGRIP, name('Quickslot 6', button(Keys.KEY_6)), name('Best Mana Potion', button(Keys.KEY_X)))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Track Quest', button(Keys.KEY_T)), name('Survivor Sense', button(Keys.KEY_Q)))"
+            "action": "mode(LGRIP, name('Quickslot 7', button(Keys.KEY_7)), name('Best Health Potion', button(Keys.KEY_Z)))"
         }
     }, 
     "cpad": {}, 
@@ -77,13 +79,13 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_1), button(Keys.KEY_TAB), button(Keys.KEY_3), button(Keys.KEY_2))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_LEFTALT), button(Keys.KEY_U))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_Q), button(Keys.KEY_J), button(Keys.KEY_LEFTBRACE), button(Keys.KEY_RIGHTBRACE))), click(dpad(1, button(Keys.KEY_S), button(Keys.KEY_C), button(Keys.KEY_P), button(Keys.KEY_I))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, sens(2.0, 2.0, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_COMMA), button(Keys.KEY_DOT))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"

@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, button(Keys.KEY_F4), name('Jump', button(Keys.KEY_SPACE)))"
+            "action": "mode(LGRIP, name('Drop Weapon', button(Keys.KEY_G)), name('Healthshot', button(Keys.KEY_X)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Inspect Weapon', button(Keys.KEY_F)), button(Keys.KEY_E))"
+            "action": "mode(LGRIP, name('Inspect Weapon', button(Keys.KEY_F)), name('Use', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)"
@@ -14,19 +14,14 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)", 
-            "name": "Jump"
+            "action": "mode(LGRIP, name('Previous Weapon', mouse(Rels.REL_WHEEL, 1)), name('Jump', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "mouse(Rels.REL_WHEEL, 1)", 
-            "name": "Next Weapon"
+            "action": "mode(LGRIP, name('Next Weapon', mouse(Rels.REL_WHEEL, -1)), name('Duck', button(Keys.KEY_KP5)))"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTCTRL)"
-        }, 
-        "RPAD": {
-            "action": "button(Keys.KEY_K)", 
-            "name": "Voice"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Player Ping"
         }, 
         "START": {
             "action": "button(Keys.KEY_ENTER)"
@@ -36,30 +31,33 @@
             "name": "Radial"
         }, 
         "X": {
-            "action": "mode(LGRIP, button(Keys.KEY_F3), name('Reload', button(Keys.KEY_R)))"
+            "action": "name('Reload', button(Keys.KEY_R))", 
+            "name": "Reload"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Drop Weapon', button(Keys.KEY_G)), name('Cycle Grenades', button(Keys.KEY_4)))"
+            "action": "mode(LGRIP, name('Cycle Grenades', button(Keys.KEY_4)), name('Graffiti Menu', button(Keys.KEY_T)))"
         }
     }, 
     "cpad": {}, 
-    "gyro": {}, 
+    "gyro": {
+        "action": "mode(RPADTOUCH, sens(0.5, -0.5, 0.0, mouse(YAW)), None)"
+    }, 
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "click(dpad(button(Keys.KEY_TAB), button(Keys.KEY_I), button(Keys.KEY_K), button(Keys.KEY_B)))"
+        "action": "click(dpad(button(Keys.KEY_K), button(Keys.KEY_H), button(Keys.KEY_B), button(Keys.KEY_TAB)))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.75, 2, sens(4.0, 4.0, mouse()))"
+        "action": "smooth(8, 0.75, 2, sens(2.0, 2.0, mouse()))"
     }, 
     "stick": {
-        "action": "deadzone(MINIMUM, 12824, dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "trigger(254, 255, button(Keys.BTN_LEFT)) and axis(Axes.ABS_Z)"
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
-        "action": "trigger(254, 255, button(Keys.BTN_RIGHT)) and axis(Axes.ABS_RZ)"
+        "action": "trigger(254, 255, button(Keys.BTN_RIGHT))"
     }, 
     "version": 1.4
 }
