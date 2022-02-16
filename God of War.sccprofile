@@ -2,10 +2,11 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Location Info', button(Keys.KEY_X)), name('Canteen', button(Keys.KEY_4)))"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Stun Grab"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Refuel', button(Keys.KEY_F)), name('Action', button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Son Action', button(Keys.KEY_F)), name('Interact', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,30 +16,30 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Jump', button(Keys.KEY_LEFTCTRL)))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Evade', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Evade', button(Keys.KEY_SPACE)))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Block / Parry', button(Keys.KEY_Q)))"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)", 
-            "name": "Sprint"
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Aim"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)", 
-            "name": "Quickfire"
+            "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
             "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, name('Quick Fix', button(Keys.KEY_G)), name('Select Siderburner', button(Keys.KEY_5)))"
+            "action": "button(Keys.KEY_P)", 
+            "name": "Photo Mode"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Cancel Action', button(Keys.KEY_Q)), name('Enter Vehicle', button(Keys.KEY_R)))"
+            "action": "mode(LGRIP, name('Quick Turn', button(Keys.KEY_X)), name('Axe Recall', button(Keys.KEY_R)))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Select a Different Vehicle', button(Keys.KEY_T)), name('Flashlight', button(Keys.KEY_3)))"
+            "action": "button(Keys.KEY_LEFTSHIFT)"
         }
     }, 
     "cpad": {}, 
@@ -78,7 +79,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_2), button(Keys.KEY_1), button(Keys.KEY_3), button(Keys.KEY_4)))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_K), button(Keys.KEY_J))))"
     }, 
     "pad_right": {
         "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"

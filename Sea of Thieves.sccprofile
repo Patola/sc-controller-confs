@@ -29,7 +29,7 @@
             "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
-            "action": "button(Keys.KEY_ENTER)"
+            "action": "mode(LGRIP, button(Keys.KEY_ENTER), name('Talk', button(Keys.KEY_LEFTALT)))"
         }, 
         "STICKPRESS": {
             "action": "mode(LGRIP, name('Auto Move', button(Keys.KEY_NUMLOCK)), name('Walk', button(Keys.KEY_LEFTCTRL)))"

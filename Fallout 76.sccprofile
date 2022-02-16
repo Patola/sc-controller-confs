@@ -1,0 +1,70 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "doubleclick(name('Sneak', button(Keys.KEY_LEFTCTRL)), mode(LGRIP, name('Toggle 1st/3rd person', None), name('Run', button(Keys.KEY_C))))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('Quick Heal', button(Keys.KEY_H)), name('Activate', button(Keys.KEY_E)))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Jump"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "RB": {
+            "action": "button(Keys.KEY_LEFTALT)", 
+            "name": "Bash/Power Attack/Grenade"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Toggle POV/Workshop"
+        }, 
+        "START": {
+            "action": "mode(LGRIP, button(Keys.KEY_T), button(Keys.KEY_ENTER))"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(LGRIP, name('Toggle Always Run', button(Keys.KEY_SLASH)), name('Pip-Boy', button(Keys.KEY_TAB)))"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Favorites', button(Keys.KEY_F)), name('Ready/Reload', button(Keys.KEY_R)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Emotes', button(Keys.KEY_G)), name('VATS', button(Keys.KEY_Q)))"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {
+        "action": "mode(LT >= 0.7, sens(1.0, -1.0, mouse(ROLL)), None)"
+    }, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "click(dpad(button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_J), button(Keys.KEY_K)))"
+    }, 
+    "pad_right": {
+        "action": "mouse()"
+    }, 
+    "stick": {
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(200, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(200, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}
