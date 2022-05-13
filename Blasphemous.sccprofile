@@ -2,12 +2,12 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_LEFTCTRL)", 
-            "name": "Destruction Toggle"
+            "action": "button(Keys.KEY_F)", 
+            "name": "Flask"
         }, 
         "B": {
-            "action": "button(Keys.KEY_RIGHTBRACE)", 
-            "name": "Next Character"
+            "action": "button(Keys.KEY_K)", 
+            "name": "Attack"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -17,36 +17,31 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(LGRIP, name('Show Target Info', button(Keys.KEY_LEFTCTRL)), name('Auto-Resolve / End Turn', button(Keys.KEY_SPACE)))"
-        }, 
-        "LPAD": {
-            "action": "button(Keys.KEY_APOSTROPHE)", 
-            "name": "Highlight characters"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), name('Jump', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "mode(LGRIP, name('Show World Tooltips', button(Keys.KEY_RIGHTCTRL)), name('Camera Center', button(Keys.KEY_HOME)))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), name('Ranged Attack', button(Keys.KEY_V)))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)", 
-            "name": "Queue Command"
+            "name": "Dodge"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)", 
-            "name": "Rotate Camera"
+            "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
-            "action": "button(Keys.KEY_ENTER)"
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, name('Toggle Sneak Mode', button(Keys.KEY_C)), name('Toggle Combat Mode', button(Keys.KEY_TAB)))"
+            "action": "button(Keys.KEY_C)"
         }, 
         "X": {
-            "action": "button(Keys.KEY_LEFTBRACE)", 
-            "name": "Previous Character"
+            "action": "button(Keys.KEY_J)", 
+            "name": "Parry"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_GRAVE)", 
-            "name": "Highlight Characters"
+            "action": "button(Keys.KEY_E)", 
+            "name": "Interact"
         }
     }, 
     "cpad": {}, 
@@ -86,10 +81,10 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(RGRIP, click(dpad(1, button(Keys.KEY_B), button(Keys.KEY_C), button(Keys.KEY_R), button(Keys.KEY_F))), click(dpad(1, button(Keys.KEY_I), name('Toggle Map', None), button(Keys.KEY_L), button(Keys.KEY_K))))"
+        "action": "mode(LGRIP, click(dpad(button(Keys.KEY_KP8), button(Keys.KEY_KP2), button(Keys.KEY_KP4), button(Keys.KEY_KP6))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_Q), button(Keys.KEY_F))))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL)), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
@@ -98,7 +93,7 @@
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
-        "action": "mode(RGRIP, name('Show World Items', trigger(254, 255, button(Keys.KEY_X))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
     }, 
     "version": 1.4
 }

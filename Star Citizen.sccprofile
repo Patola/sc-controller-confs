@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Refill Oxygen', button(Keys.KEY_B)), name('Prone / EA Re-Spawn', button(Keys.KEY_X)))"
+            "action": "mode(LGRIP, name('Refill Oxygen', button(Keys.KEY_B)), name('Prone / EA Re-Spawn / Brake', button(Keys.KEY_X)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Heal', button(Keys.KEY_C)), name('Interact', button(Keys.KEY_F)))"
+            "action": "mode(LGRIP, name('Heal / Cruise Control', button(Keys.KEY_C)), name('Interact', button(Keys.KEY_F)))"
         }, 
         "BACK": {
             "action": "feedback(BOTH, 512.0, hold(name('Unarmed Combat', button(Keys.KEY_0)), mode(LGRIP, name('Exit', button(Keys.KEY_Y)), name('Escape', button(Keys.KEY_ESC)))))"
@@ -20,8 +20,8 @@
             "action": "mode(LGRIP, name('Lean Right', button(Keys.KEY_E)), name('Duck', button(Keys.KEY_LEFTCTRL)))"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_F)", 
-            "name": "Interact"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Boost"
         }, 
         "RPAD": {
             "action": "button(Keys.KEY_Z)", 
@@ -31,11 +31,10 @@
             "action": "mode(LGRIP, name('P.I.T.', button(Keys.KEY_TAB)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "name('Run / Hold Breath', button(Keys.KEY_LEFTSHIFT))", 
-            "name": "Run / Hold Breath"
+            "action": "mode(LGRIP, name('Coupled/Decoupled Mode', button(Keys.KEY_LEFTALT) and button(Keys.KEY_C)), name('Landing Gear', button(Keys.KEY_N)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Weapon Change Fire Mode', button(Keys.KEY_V)), name('Reload / Holster Weapon', button(Keys.KEY_R)))"
+            "action": "mode(LGRIP, name('Weapon Change Fire Mode', button(Keys.KEY_V)), name('Reload / Holster Weapon / Flight Ready', button(Keys.KEY_R)))"
         }, 
         "Y": {
             "action": "mode(LGRIP, name('Equip Grenade', button(Keys.KEY_G)), name('Flashlight', button(Keys.KEY_T)))"
@@ -87,7 +86,7 @@
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "mode(LGRIP, trigger(254, 255, button(Keys.BTN_MIDDLE)), trigger(254, 255, button(Keys.BTN_LEFT)))"
+        "action": "mode(LGRIP, trigger(254, 255, button(Keys.BTN_MIDDLE)), trigger(254, 255, button(Keys.BTN_MOUSE)))"
     }, 
     "trigger_right": {
         "action": "mode(LGRIP, name('Mining Mode', trigger(254, 255, button(Keys.KEY_M))), trigger(50, 255, button(Keys.BTN_RIGHT)))"
