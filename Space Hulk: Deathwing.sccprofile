@@ -2,7 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Open and Move Forward Order', button(Keys.KEY_J)), name('Heal Order', button(Keys.KEY_H)))"
+            "action": "mode(LGRIP, name('Open and Move Forward Order', button(Keys.KEY_J)), name('Mel\u00e9e', button(Keys.KEY_Q)))"
         }, 
         "B": {
             "action": "mode(LGRIP, name('Move Order', button(Keys.KEY_G)), name('Use', button(Keys.KEY_E)))"
@@ -82,16 +82,16 @@
         "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_F1), button(Keys.KEY_F2))))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(1.5, 1.5, mouse())))"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "trigger(254, 255, button(Keys.KEY_Q))"
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_MOUSE))"
+        "action": "mode(LGRIP, name('Heal Order', trigger(254, 255, button(Keys.KEY_H))), trigger(254, 255, button(Keys.BTN_RIGHT)))"
     }, 
     "version": 1.4
 }

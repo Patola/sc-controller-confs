@@ -21,7 +21,8 @@
             "action": "mode(LGRIP, name('Next Weapon', button(Keys.KEY_EQUAL)), name('Duck', button(Keys.KEY_C)))"
         }, 
         "RGRIP": {
-            "action": "button(Keys.KEY_LEFTSHIFT)"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint"
         }, 
         "RPAD": {
             "action": "button(Keys.BTN_MIDDLE)"

@@ -2,7 +2,7 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Mel\\xe9e (Multiplayer)', button(Keys.KEY_V)), name('Crouch', button(Keys.KEY_C)))"
+            "action": "mode(LGRIP, name('Mel\u00e9e (Multiplayer)', button(Keys.KEY_V)), name('Crouch', button(Keys.KEY_C)))"
         }, 
         "B": {
             "action": "mode(LGRIP, name('Pick Up Weapon', button(Keys.KEY_F)), name('Vault / Interact', button(Keys.KEY_E)))"
@@ -19,15 +19,15 @@
             "name": "Shootdodge"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_LEFTSHIFT)", 
-            "name": "Bullet Time"
+            "action": "mode(LGRIP, name('Roll', button(Keys.KEY_G)), name('Bullet Time', button(Keys.KEY_LEFTSHIFT)))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTCTRL)", 
             "name": "Sprint"
         }, 
         "RPAD": {
-            "action": "mode(LGRIP, name('Qukck Throw Grenade', button(Keys.BTN_MIDDLE)), name('Roll', button(Keys.KEY_G)))"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Quick Throw Grenade"
         }, 
         "START": {
             "action": "button(Keys.KEY_ENTER)"
@@ -80,7 +80,7 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_9), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_B), button(Keys.KEY_9), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))))"
     }, 
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"
@@ -89,7 +89,7 @@
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
         "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"

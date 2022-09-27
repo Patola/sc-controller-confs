@@ -6,8 +6,7 @@
             "name": "Ex Shoot"
         }, 
         "B": {
-            "action": "button(Keys.KEY_X)", 
-            "name": "Shoot"
+            "action": "mode(LGRIP, button(Keys.KEY_Z), name('Shoot', button(Keys.KEY_X)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -37,7 +36,7 @@
             "name": "Switch Weapon"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "mode(LGRIP, button(Keys.KEY_X), button(Keys.KEY_R))"
         }, 
         "Y": {
             "action": "button(Keys.KEY_G)"

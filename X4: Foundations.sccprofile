@@ -29,7 +29,7 @@
             "action": "mode(RGRIP, name('Radar Mode', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_M)), LGRIP, name('Center Camera', button(Keys.KEY_KP5)), name('Stop Engines', button(Keys.KEY_BACKSPACE)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Target Object in Map', button(Keys.KEY_T)), RGRIP, name('Next Surface Element', button(Keys.KEY_HOME)), name('Target Closest Enemy', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Container Magnet', button(Keys.KEY_O)), RGRIP, name('Next Surface Element', button(Keys.KEY_HOME)), name('Target Closest Enemy', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_E)))"
         }, 
         "Y": {
             "action": "mode(LGRIP, name('Object Comm', button(Keys.KEY_C)), RGRIP, name('Toggle Auto Pilot', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_A)), name('Next Target', button(Keys.KEY_PAGEUP)))"

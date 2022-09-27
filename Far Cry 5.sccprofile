@@ -2,43 +2,43 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Change Ammo Type', button(Keys.KEY_U)), name('Mel\u00e9e Attack / Takedown / Move Body', button(Keys.KEY_F)))"
+            "action": "doubleclick(name('Change Ammo Type', button(Keys.KEY_U)), mode(LGRIP, name('Change Fire Mode', button(Keys.KEY_V)), name('Mel\u00e9e Attack / Eliminate', button(Keys.KEY_F))))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Change Fire Mode', button(Keys.KEY_V)), name('Interact', button(Keys.KEY_E)))"
+            "action": "doubleclick(button(Keys.KEY_1), mode(LGRIP, name('Heal', button(Keys.KEY_LEFTCTRL)), name('Interact', button(Keys.KEY_E))))"
         }, 
         "BACK": {
-            "action": "mode(LGRIP, name('Journal', button(Keys.KEY_J)), name('Escape', button(Keys.KEY_ESC)))"
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)", 
-            "name": "Jump"
+            "action": "doubleclick(button(Keys.KEY_G), mode(LGRIP, name('Previous Weapon', mouse(Rels.REL_WHEEL, -1)), name('Jump', button(Keys.KEY_SPACE))))"
         }, 
         "RB": {
-            "action": "button(Keys.KEY_C)", 
-            "name": "Crouch / Slide"
+            "action": "doubleclick(button(Keys.KEY_TAB), mode(LGRIP, name('Next Weapon', mouse(Rels.REL_WHEEL, 1)), name('Crouch', button(Keys.KEY_C))))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)", 
-            "name": "Sprint / Hold Breath"
+            "name": "Sprint"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Throw"
         }, 
         "START": {
             "action": "mode(LGRIP, name('Last Weapon', button(Keys.KEY_X)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, name('Repair Torch', button(Keys.KEY_9)), name('Hide / Show Weapon', button(Keys.KEY_N)))"
+            "action": "doubleclick(button(Keys.KEY_V), mode(LGRIP, name('Syringe Wheel', button(Keys.KEY_LEFTALT)), name('Weapon Wheel', button(Keys.KEY_Q))))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Use Medkit', button(Keys.KEY_LEFTCTRL)), name('Reload / Cancel Attack / Mel\u00e9e Block', button(Keys.KEY_R)))"
+            "action": "doubleclick(button(Keys.KEY_2), mode(LGRIP, name('Repair Torch', button(Keys.KEY_9)), name('Reload', button(Keys.KEY_R))))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Cycle Throwable Up', button(Keys.KEY_MINUS)), name('Throw Rock', button(Keys.KEY_T)))"
+            "action": "doubleclick(name('Fishing Rod', button(Keys.KEY_Y)), mode(LGRIP, name('Toss a Grenade', button(Keys.BTN_MIDDLE)), name('Toss a Stone', button(Keys.KEY_T))))"
         }
     }, 
     "cpad": {}, 
@@ -78,10 +78,10 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_Y), button(Keys.KEY_5), button(Keys.KEY_G), button(Keys.KEY_H))), click(dpad(button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_Q), button(Keys.KEY_LEFTALT))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_6), button(Keys.KEY_3), button(Keys.KEY_4), button(Keys.KEY_5))), click(dpad(button(Keys.KEY_Z), button(Keys.KEY_M), button(Keys.KEY_7), button(Keys.KEY_8))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, mouse())"
+        "action": "mode(LGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(1.8, 1.8, mouse())))"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
