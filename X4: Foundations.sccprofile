@@ -11,7 +11,7 @@
             "action": "mode(LGRIP, name('Deploy Countermeasures', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_C)), RGRIP, name('Pause', button(Keys.KEY_SCROLLLOCK)), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
-            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+            "action": "hold(menu('Default.menu'), mode(LGRIP, name('Immersive Camera', button(Keys.KEY_F6)), menu('Default.menu')))"
         }, 
         "LB": {
             "action": "mode(LGRIP, name('Previous Primary Group', button(Keys.KEY_LEFTBRACE)), RGRIP, name('Previous Secondary Group', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_LEFTBRACE)), name('Boost / Jump', button(Keys.KEY_TAB)))"
@@ -36,6 +36,7 @@
         }
     }, 
     "cpad": {}, 
+    "dpad": {}, 
     "gyro": {}, 
     "is_template": false, 
     "menus": {
@@ -77,8 +78,9 @@
     "pad_right": {
         "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_F3), button(Keys.KEY_F1), button(Keys.KEY_F2), button(Keys.KEY_F4))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
+    "rstick": {}, 
     "stick": {
-        "action": "mode(RGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_A), button(Keys.KEY_D)), LGRIP, dpad8(button(Keys.KEY_KP8), button(Keys.KEY_KP2), button(Keys.KEY_KP4), button(Keys.KEY_KP6), button(Keys.KEY_KP7), button(Keys.KEY_KP9), button(Keys.KEY_KP1), button(Keys.KEY_KP3)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_Q), button(Keys.KEY_E)))"
+        "action": "mode(RGRIP, dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_Q), button(Keys.KEY_E)), LGRIP, dpad8(button(Keys.KEY_KP8), button(Keys.KEY_KP2), button(Keys.KEY_KP4), button(Keys.KEY_KP6), button(Keys.KEY_KP7), button(Keys.KEY_KP9), button(Keys.KEY_KP1), button(Keys.KEY_KP3)), dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "mode(RGRIP, name('Secondary Fire and Crouch', button(Keys.KEY_L)), LGRIP, name('Container Magnet', button(Keys.KEY_O)), trigger(254, 255, button(Keys.BTN_MOUSE)))"

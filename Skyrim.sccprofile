@@ -2,60 +2,63 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(RGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_R))"
+            "action": "mode(LGRIP, mouse(8, -1), button(19))"
         }, 
         "B": {
-            "action": "mode(RGRIP, button(Keys.KEY_Q), button(Keys.KEY_SPACE))"
+            "action": "mode(LGRIP, button(16), button(57))"
         }, 
         "BACK": {
-            "action": "mode(RGRIP, button(Keys.KEY_F5), button(Keys.KEY_ESC))"
+            "action": "mode(RGRIP, button(63), button(1))"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "button(Keys.KEY_SPACE)"
-        }, 
-        "LGRIP": {
-            "action": "mode(RGRIP, button(Keys.KEY_LEFTALT), button(Keys.KEY_LEFTSHIFT))"
+            "action": "button(57)"
         }, 
         "RB": {
-            "action": "mode(RGRIP, button(Keys.KEY_LEFTCTRL), None)"
+            "action": "button(29)"
+        }, 
+        "RGRIP": {
+            "action": "button(56)", 
+            "name": "Sprint"
         }, 
         "START": {
-            "action": "mode(RGRIP, button(Keys.KEY_F9), button(Keys.KEY_ENTER))"
+            "action": "mode(RGRIP, button(67), button(28))"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_C)", 
+            "action": "button(46)", 
             "name": "Auto-move"
         }, 
         "X": {
-            "action": "mode(RGRIP, button(Keys.BTN_MIDDLE), button(Keys.KEY_Z))"
+            "action": "mode(LGRIP, button(274), button(44))"
         }, 
         "Y": {
-            "action": "mode(RGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_E))"
+            "action": "mode(LGRIP, mouse(8, 1), button(18))"
         }
     }, 
     "cpad": {}, 
+    "dpad": {}, 
     "gyro": {
         "action": "mode(LT >= 0.01, sens(-1.0, -0.5, 0.5, mouse(ROLL)), None)"
     }, 
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "mode(RGRIP, click(dpad(button(Keys.KEY_I), button(Keys.KEY_J), button(Keys.KEY_SLASH), button(Keys.KEY_P))), click(dpad(button(Keys.KEY_T), button(Keys.KEY_TAB), button(Keys.KEY_ESC), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_L))))"
+        "action": "mode(LGRIP, dpad(1, button(23), button(36), button(53), button(25)), click(dpad(1, button(20), button(15), button(1), button(42) and button(38))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.75, 2, mouse())"
+        "action": "mode(LGRIP, XY(mouse(6), mouse(8)), smooth(8, 0.75, 2, mouse()))"
     }, 
+    "rstick": {}, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+        "action": "dpad(button(17), button(31), button(30), button(32))"
     }, 
     "trigger_left": {
-        "action": "trigger(50, 255, button(Keys.BTN_MIDDLE)) and trigger(254, 255, button(Keys.BTN_MOUSE))"
+        "action": "trigger(50, 255, button(274)) and trigger(254, 255, button(272))"
     }, 
     "trigger_right": {
-        "action": "trigger(50, 255, button(Keys.BTN_MIDDLE)) and trigger(254, 255, button(Keys.BTN_RIGHT))"
+        "action": "trigger(50, 255, button(274)) and trigger(254, 255, button(273))"
     }, 
     "version": 1.4
 }

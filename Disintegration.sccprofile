@@ -2,10 +2,11 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, button(Keys.KEY_1), RGRIP, button(Keys.KEY_5), name('Stop Horse', button(Keys.KEY_Z)))"
+            "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "B": {
-            "action": "mode(LGRIP, button(Keys.KEY_3), RGRIP, button(Keys.KEY_7), name('Use', button(Keys.KEY_SPACE)))"
+            "action": "button(Keys.KEY_E)", 
+            "name": "Toggle Scan Mode"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -15,26 +16,39 @@
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(RGRIP, name('Previous Weapon', button(Keys.KEY_R)), name('Jump', button(Keys.KEY_E)))"
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Up"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_Q)", 
+            "name": "Switch Weapons / Use Alternate Ability"
         }, 
         "RB": {
-            "action": "mode(RGRIP, name('Next Weapon', button(Keys.KEY_T)), name('Armed Mode', button(Keys.KEY_F)))"
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Down"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Gravcycle Boost"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Toggle Scan Mode"
         }, 
         "START": {
-            "action": "mode(RGRIP, button(Keys.KEY_H), button(Keys.KEY_ENTER))"
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_TAB)", 
-            "name": "Fast Zoom In"
+            "action": "button(Keys.KEY_LEFTALT)", 
+            "name": "Cancel Staged Unit Ability"
         }, 
         "X": {
-            "action": "mode(LGRIP, button(Keys.KEY_2), RGRIP, button(Keys.KEY_6), name('Jump Back', button(Keys.KEY_Q)))"
+            "action": "button(Keys.KEY_R)", 
+            "name": "Reload Primary Weapon"
         }, 
         "Y": {
-            "action": "mode(LGRIP, button(Keys.KEY_4), RGRIP, button(Keys.KEY_8), name('Call Horse', button(Keys.KEY_H)))"
+            "action": "button(Keys.KEY_F)", 
+            "name": "Follow Commander"
         }
     }, 
     "cpad": {}, 
@@ -75,10 +89,10 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_F7), button(Keys.KEY_F5), button(Keys.KEY_LEFTALT) and button(Keys.KEY_X), button(Keys.KEY_X))), RGRIP, click(dpad(1, None, None, button(Keys.KEY_9), button(Keys.KEY_0))), click(dpad(1, button(Keys.KEY_F2), button(Keys.KEY_F4), button(Keys.KEY_F1), button(Keys.KEY_F3))))"
+        "action": "click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3)))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "rstick": {}, 
     "stick": {

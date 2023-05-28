@@ -2,39 +2,42 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, button(Keys.KEY_1), RGRIP, button(Keys.KEY_5), name('Stop Horse', button(Keys.KEY_Z)))"
+            "action": "mode(LGRIP, name('Change Fire Mode', button(Keys.KEY_V)), name('Mel\u00e9e Attack / Eliminate', button(Keys.KEY_F)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, button(Keys.KEY_3), RGRIP, button(Keys.KEY_7), name('Use', button(Keys.KEY_SPACE)))"
+            "action": "doubleclick(button(Keys.KEY_1), mode(LGRIP, name('Heal', button(Keys.KEY_LEFTCTRL)), name('Interact', button(Keys.KEY_E))))"
         }, 
         "BACK": {
-            "action": "button(Keys.KEY_ESC)", 
-            "name": "Escape"
+            "action": "mode(LGRIP, name('Pictures', button(Keys.KEY_B)), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
         }, 
         "LB": {
-            "action": "mode(RGRIP, name('Previous Weapon', button(Keys.KEY_R)), name('Jump', button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Goto', button(Keys.KEY_G)), name('Jump', button(Keys.KEY_SPACE)))"
         }, 
         "RB": {
-            "action": "mode(RGRIP, name('Next Weapon', button(Keys.KEY_T)), name('Armed Mode', button(Keys.KEY_F)))"
+            "action": "doubleclick(button(Keys.KEY_TAB), mode(LGRIP, button(Keys.KEY_TAB), name('Crouch', button(Keys.KEY_C))))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Sprint"
         }, 
         "RPAD": {
-            "action": "button(Keys.BTN_MIDDLE)"
+            "action": "button(Keys.BTN_MIDDLE)", 
+            "name": "Throw"
         }, 
         "START": {
-            "action": "mode(RGRIP, button(Keys.KEY_H), button(Keys.KEY_ENTER))"
+            "action": "mode(LGRIP, name('TAB', button(Keys.KEY_TAB)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "button(Keys.KEY_TAB)", 
-            "name": "Fast Zoom In"
+            "action": "doubleclick(button(Keys.KEY_V), mode(LGRIP, name('Syringe Wheel', button(Keys.KEY_LEFTALT)), name('Weapon Wheel', button(Keys.KEY_Q))))"
         }, 
         "X": {
-            "action": "mode(LGRIP, button(Keys.KEY_2), RGRIP, button(Keys.KEY_6), name('Jump Back', button(Keys.KEY_Q)))"
+            "action": "doubleclick(button(Keys.KEY_2), mode(LGRIP, name('Repair Torch', button(Keys.KEY_9)), name('Reload', button(Keys.KEY_R))))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, button(Keys.KEY_4), RGRIP, button(Keys.KEY_8), name('Call Horse', button(Keys.KEY_H)))"
+            "action": "doubleclick(name('Fishing Rod', button(Keys.KEY_Y)), mode(LGRIP, name('Binoculars', button(Keys.KEY_X)), name('Toss a Stone', button(Keys.KEY_T))))"
         }
     }, 
     "cpad": {}, 
@@ -75,10 +78,10 @@
         }]
     }, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_F7), button(Keys.KEY_F5), button(Keys.KEY_LEFTALT) and button(Keys.KEY_X), button(Keys.KEY_X))), RGRIP, click(dpad(1, None, None, button(Keys.KEY_9), button(Keys.KEY_0))), click(dpad(1, button(Keys.KEY_F2), button(Keys.KEY_F4), button(Keys.KEY_F1), button(Keys.KEY_F3))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_6), button(Keys.KEY_3), button(Keys.KEY_4), button(Keys.KEY_5))), click(dpad(button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_MINUS), button(Keys.KEY_EQUAL))))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "mode(LGRIP, ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(1.8, 1.8, mouse())))"
     }, 
     "rstick": {}, 
     "stick": {

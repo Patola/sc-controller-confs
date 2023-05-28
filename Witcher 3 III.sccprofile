@@ -32,13 +32,14 @@
             "action": "mode(LGRIP, name('Some Sign 7', button(Keys.KEY_7)), name('Quick Access Menu', button(Keys.KEY_TAB)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Quen 4', button(Keys.KEY_6)), name('Dodge', button(Keys.KEY_COMMA)))"
+            "action": "mode(LGRIP, name('Quen 4', button(Keys.KEY_6)), name('Dodge', button(Keys.KEY_LEFTALT)))"
         }, 
         "Y": {
             "action": "mode(LGRIP, name('Igni 3', button(Keys.KEY_5)), name('Cast Sign', button(Keys.KEY_Q)))"
         }
     }, 
     "cpad": {}, 
+    "dpad": {}, 
     "gyro": {}, 
     "is_template": false, 
     "menus": {
@@ -80,14 +81,17 @@
     "pad_right": {
         "action": "smooth(8, 0.78, 2.0, mouse())"
     }, 
+    "rstick": {}, 
     "stick": {
         "action": "mode(LGRIP, dpad(1, button(Keys.KEY_R), button(Keys.KEY_F), button(Keys.KEY_1), button(Keys.KEY_2)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
-        "action": "mode(LGRIP, name('Strong Attack', trigger(50, 255, button(Keys.KEY_KPDOT))), name('Fast Attack', trigger(254, 255, button(Keys.BTN_MOUSE))))"
+        "action": "name('Fast Attack', trigger(254, 255, button(Keys.BTN_MOUSE)))", 
+        "name": "Fast Attack"
     }, 
     "trigger_right": {
-        "action": "mode(LGRIP, name('Dodge', button(Keys.KEY_COMMA)), name('Parry', button(Keys.BTN_RIGHT)))"
+        "action": "name('Parry', button(Keys.BTN_RIGHT))", 
+        "name": "Parry"
     }, 
     "version": 1.4
 }
