@@ -11,7 +11,7 @@
             "action": "mode(LGRIP, name('Deploy Countermeasures', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_C)), RGRIP, name('Pause', button(Keys.KEY_SCROLLLOCK)), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
-            "action": "hold(menu('Default.menu'), mode(LGRIP, name('Immersive Camera', button(Keys.KEY_F6)), menu('Default.menu')))"
+            "action": "hold(menu('Default.menu'), mode(LGRIP, name('Immersive Camera', button(Keys.KEY_F6)), RGRIP, button(Keys.KEY_SEMICOLON), menu('Default.menu')))"
         }, 
         "LB": {
             "action": "mode(LGRIP, name('Previous Primary Group', button(Keys.KEY_LEFTBRACE)), RGRIP, name('Previous Secondary Group', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_LEFTBRACE)), name('Boost / Jump', button(Keys.KEY_TAB)))"
