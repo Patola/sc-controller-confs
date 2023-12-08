@@ -49,37 +49,6 @@
     "gyro": {}, 
     "is_template": false, 
     "menus": {
-        "Two Worlds": [{
-            "action": "button(Keys.KEY_F1)", 
-            "icon": "weapons/reticule", 
-            "id": "item1", 
-            "name": "Skills"
-        }, {
-            "action": "button(Keys.KEY_F2)", 
-            "icon": "items/apple", 
-            "id": "item2", 
-            "name": "Inventory"
-        }, {
-            "action": "button(Keys.KEY_F3)", 
-            "icon": "items/heart-bottle", 
-            "id": "item3", 
-            "name": "Magic"
-        }, {
-            "action": "button(Keys.KEY_F4)", 
-            "icon": "media/play.bw", 
-            "id": "item4", 
-            "name": "Quests"
-        }, {
-            "action": "button(Keys.KEY_F5)", 
-            "icon": "driving/pedal2", 
-            "id": "item5", 
-            "name": "Reputation"
-        }, {
-            "action": "button(Keys.KEY_F6)", 
-            "icon": "system/window", 
-            "id": "item6", 
-            "name": "Map"
-        }]
     }, 
     "pad_left": {
         "action": "click(dpad(1, button(Keys.KEY_TAB), button(Keys.KEY_1), button(Keys.KEY_Z), button(Keys.KEY_Z)))"
