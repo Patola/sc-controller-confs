@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, button(Keys.KEY_B), button(Keys.KEY_F))"
+            "action": "mode(LGRIP, name('Memories', button(Keys.KEY_J)), button(Keys.KEY_V))"
         }, 
         "B": {
-            "action": "mode(LGRIP, button(Keys.KEY_Y), button(Keys.KEY_E))"
+            "action": "mode(LGRIP, name('Strelak Sapper Charge', button(Keys.KEY_G)), button(Keys.KEY_F))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -30,13 +30,14 @@
             "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_C))"
+            "action": "button(Keys.KEY_TAB)", 
+            "name": "Abilities"
         }, 
         "X": {
-            "action": "mode(LGRIP, button(Keys.KEY_T), button(Keys.KEY_R))"
+            "action": "mode(LGRIP, name('Hackamajig', button(Keys.KEY_H)), button(Keys.KEY_R))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, button(Keys.KEY_Q), button(Keys.KEY_G))"
+            "action": "mode(LGRIP, name('Tag', button(Keys.KEY_T)), button(Keys.KEY_LEFTALT))"
         }
     }, 
     "cpad": {}, 
@@ -45,14 +46,14 @@
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_J), button(Keys.KEY_K))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.BTN_EXTRA), button(Keys.KEY_5), button(Keys.KEY_6), button(Keys.KEY_7))), click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))))"
     }, 
     "pad_right": {
         "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "rstick": {}, 
     "stick": {
-        "action": "mode(LGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"

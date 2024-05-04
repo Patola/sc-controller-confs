@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, button(Keys.KEY_B), button(Keys.KEY_F))"
+            "action": "mode(LGRIP, name('Flashlight', button(Keys.KEY_B)), name('Map Marker Mode', button(Keys.KEY_LEFTALT)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, button(Keys.KEY_Y), button(Keys.KEY_E))"
+            "action": "mode(LGRIP, name('Holster', button(Keys.KEY_H)), name('Use', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -18,7 +18,7 @@
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
         }, 
         "RB": {
-            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_LEFTCTRL))"
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_C))"
         }, 
         "RGRIP": {
             "action": "button(Keys.KEY_LEFTSHIFT)"
@@ -30,13 +30,13 @@
             "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_C))"
+            "action": "mode(LGRIP, name('Dismantle', button(Keys.KEY_F)), name('Scan', button(Keys.KEY_V)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, button(Keys.KEY_T), button(Keys.KEY_R))"
+            "action": "mode(LGRIP, name('Customizer', button(Keys.KEY_X)), name('Reload', button(Keys.KEY_R)))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, button(Keys.KEY_Q), button(Keys.KEY_G))"
+            "action": "mode(LGRIP, name('Toggle Ghost Fly', button(Keys.KEY_G)), name('Build Menu', button(Keys.KEY_Q)))"
         }
     }, 
     "cpad": {}, 
@@ -45,14 +45,14 @@
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_J), button(Keys.KEY_K))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_TAB), button(Keys.KEY_M), button(Keys.KEY_J), button(Keys.KEY_O))))"
     }, 
     "pad_right": {
         "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "rstick": {}, 
     "stick": {
-        "action": "mode(LGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+        "action": "mode(LGRIP, dpad(1, button(Keys.KEY_PAGEUP), button(Keys.KEY_PAGEDOWN), button(Keys.KEY_RIGHTALT) and mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_RIGHTALT) and mouse(Rels.REL_WHEEL, -1)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"

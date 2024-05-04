@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, button(Keys.KEY_B), button(Keys.KEY_F))"
+            "action": "button(Keys.KEY_F)"
         }, 
         "B": {
-            "action": "mode(LGRIP, button(Keys.KEY_Y), button(Keys.KEY_E))"
+            "action": "button(Keys.KEY_E)"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -16,6 +16,9 @@
         }, 
         "LB": {
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_SPACE)"
         }, 
         "RB": {
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_LEFTCTRL))"
@@ -30,13 +33,14 @@
             "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_C))"
+            "action": "mode(LGRIP, button(Keys.KEY_F4), button(Keys.KEY_TAB))"
         }, 
         "X": {
-            "action": "mode(LGRIP, button(Keys.KEY_T), button(Keys.KEY_R))"
+            "action": "button(Keys.KEY_R)"
         }, 
         "Y": {
-            "action": "mode(LGRIP, button(Keys.KEY_Q), button(Keys.KEY_G))"
+            "action": "name('Construction', button(Keys.KEY_Q))", 
+            "name": "Construction"
         }
     }, 
     "cpad": {}, 
@@ -45,14 +49,14 @@
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_J), button(Keys.KEY_K))))"
+        "action": "click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), mouse(Rels.REL_WHEEL, -1), mouse(Rels.REL_WHEEL, 1)))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+        "action": "smooth(8, 0.78, 2.0, sens(2.2, 2.2, mouse()))"
     }, 
     "rstick": {}, 
     "stick": {
-        "action": "mode(LGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
