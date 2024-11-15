@@ -8,8 +8,7 @@
             "action": "mode(LGRIP, name('Inventory', button(Keys.KEY_E)), name('Ctrl', button(Keys.KEY_LEFTCTRL)))"
         }, 
         "BACK": {
-            "action": "button(Keys.KEY_ESC)", 
-            "name": "Escape"
+            "action": "mode(LGRIP, name('Combat Interface', button(Keys.KEY_Z)), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
@@ -27,13 +26,13 @@
             "action": "button(Keys.BTN_MIDDLE)"
         }, 
         "START": {
-            "action": "button(Keys.KEY_ENTER)"
+            "action": "mode(LGRIP, name('Guidebook', button(Keys.KEY_G)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
             "action": "mode(LGRIP, name('Warp', button(Keys.KEY_CAPSLOCK)), name('Sail Mode Unlock/Lock Cursor', button(Keys.KEY_TAB)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Switch Conveyor Belts Path', button(Keys.KEY_R)), name('Enter Upgrade Mode', button(Keys.KEY_U)))"
+            "action": "mode(LGRIP, name('Enter Upgrade Mode', button(Keys.KEY_U)), name('Switch Conveyor Belts Path', button(Keys.KEY_R)))"
         }, 
         "Y": {
             "action": "mode(LGRIP, name('Turn On/Off the Night Lights', button(Keys.KEY_L)), name('Enter Dismantle Mode', button(Keys.KEY_X)))"

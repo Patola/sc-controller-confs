@@ -1,0 +1,64 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, button(Keys.KEY_X), name('Mel\u00e9e', button(Keys.KEY_V)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, button(Keys.KEY_Z), name('Activate', button(Keys.KEY_E)))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, button(Keys.KEY_Z), button(Keys.KEY_R))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, button(Keys.KEY_C), button(Keys.KEY_LEFTCTRL))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.KEY_G)"
+        }, 
+        "START": {
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
+        }, 
+        "STICKPRESS": {
+            "action": "button(Keys.KEY_TAB)"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, button(Keys.KEY_O), button(Keys.KEY_SPACE))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Grenade', button(Keys.BTN_MIDDLE)), name('Flashlight/Scanner', button(Keys.KEY_F)))"
+        }
+    }, 
+    "cpad": {}, 
+    "dpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_K), button(Keys.KEY_B), button(Keys.KEY_P), button(Keys.KEY_L))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_Q), button(Keys.KEY_H))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(1.3, 1.3, mouse())))"
+    }, 
+    "rstick": {}, 
+    "stick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}

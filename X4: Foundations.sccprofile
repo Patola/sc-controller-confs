@@ -11,7 +11,7 @@
             "action": "mode(LGRIP, name('Deploy Countermeasures', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_C)), RGRIP, name('Pause', button(Keys.KEY_SCROLLLOCK)), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
-            "action": "hold(menu('Default.menu'), mode(LGRIP, name('Immersive Camera', button(Keys.KEY_F6)), RGRIP, button(Keys.KEY_SEMICOLON), menu('Default.menu')))"
+            "action": "hold(menu('Default.menu'), mode(LGRIP, name('Immersive Camera', button(Keys.KEY_F6)), RGRIP, name('VE Zoom', button(Keys.KEY_Y)), menu('Default.menu')))"
         }, 
         "LB": {
             "action": "mode(LGRIP, name('Previous Primary Group', button(Keys.KEY_LEFTBRACE)), RGRIP, name('Previous Secondary Group', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_LEFTBRACE)), name('Boost / Jump', button(Keys.KEY_TAB)))"
@@ -20,7 +20,7 @@
             "action": "mode(LGRIP, name('Next Primary Group', button(Keys.KEY_RIGHTBRACE)), RGRIP, name('Next Secondary Group', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_RIGHTBRACE)), name('Fire Primary', button(Keys.BTN_MIDDLE)))"
         }, 
         "RPAD": {
-            "action": "mode(LGRIP, name('Nothing', None), RGRIP, name('Match Speed', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_X)), name('Fire Secondary / Crouch', button(Keys.KEY_L)))"
+            "action": "mode(RGRIP, name('Open Radial Menu 2', button(Keys.KEY_F8)), name('Fire Secondary / Crouch', button(Keys.KEY_L)))"
         }, 
         "START": {
             "action": "mode(LGRIP, name('Next Ammunition', button(Keys.KEY_K)), RGRIP, name('Activate / Deactivate Lock', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_KP5)), button(Keys.KEY_ENTER))"
@@ -29,7 +29,7 @@
             "action": "mode(RGRIP, name('Radar Mode', button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_M)), LGRIP, name('Center Camera', button(Keys.KEY_KP5)), name('Stop Engines', button(Keys.KEY_BACKSPACE)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Container Magnet', button(Keys.KEY_O)), RGRIP, name('Next Surface Element', button(Keys.KEY_HOME)), name('Target Closest Enemy', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_E)))"
+            "action": "mode(LGRIP, name('Repeat Last Deployment', button(Keys.KEY_SEMICOLON)), RGRIP, name('Next Surface Element', button(Keys.KEY_HOME)), name('Target Closest Enemy', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_E)))"
         }, 
         "Y": {
             "action": "mode(LGRIP, name('Object Comm', button(Keys.KEY_C)), RGRIP, name('Toggle Auto Pilot', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_A)), name('Next Target', button(Keys.KEY_PAGEUP)))"
@@ -39,8 +39,7 @@
     "dpad": {}, 
     "gyro": {}, 
     "is_template": false, 
-    "menus": {
-    }, 
+    "menus": {}, 
     "pad_left": {
         "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_3), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_1), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_2), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_4))), RGRIP, click(dpad(1, button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_D), button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_M), button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_H), button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_X))), click(dpad(1, button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_D), button(Keys.KEY_M), button(Keys.KEY_KPMINUS), button(Keys.KEY_KPPLUS))))"
     }, 

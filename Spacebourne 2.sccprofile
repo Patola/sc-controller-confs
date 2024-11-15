@@ -8,7 +8,7 @@
             "action": "mode(LGRIP, name('Order 3', button(Keys.KEY_F3)), name('Interaction', button(Keys.KEY_F)))"
         }, 
         "BACK": {
-            "action": "mode(LGRIP, name('Ship Perk 3', None), name('Escape', button(Keys.KEY_ESC)))"
+            "action": "mode(LGRIP, name('Launch Flares', button(Keys.KEY_LEFTBRACE)), name('Escape', button(Keys.KEY_ESC)))"
         }, 
         "C": {
             "action": "hold(menu('Default.menu'), menu('Default.menu'))"
@@ -30,7 +30,7 @@
             "action": "mode(LGRIP, name('Launch Flares', button(Keys.KEY_X)), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "doubleclick(name('Toggle Warp Drive', button(Keys.KEY_B)), mode(LGRIP, name('Eject', button(Keys.KEY_G)), name('Toggle Engine', button(Keys.KEY_LEFTALT))))"
+            "action": "doubleclick(name('Toggle Warp Drive', button(Keys.KEY_B)), mode(LGRIP, name('Eject', button(Keys.KEY_G)), name('Toggle Engine', button(Keys.KEY_RIGHTBRACE))))"
         }, 
         "X": {
             "action": "mode(LGRIP, name('Order 2', button(Keys.KEY_F2)), button(Keys.KEY_R))"
@@ -43,6 +43,7 @@
     "dpad": {}, 
     "gyro": {}, 
     "is_template": false, 
+    "menus": {}, 
     "pad_left": {
         "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_2), button(Keys.KEY_1), button(Keys.KEY_3), button(Keys.KEY_4))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_Y), button(Keys.KEY_J), button(Keys.KEY_O))))"
     }, 
@@ -51,7 +52,7 @@
     }, 
     "rstick": {}, 
     "stick": {
-        "action": "mode(LGRIP, dpad(button(Keys.KEY_R), button(Keys.KEY_V), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_Z), button(Keys.KEY_X), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "mode(LGRIP, name('Toggle Interaction Cursor', trigger(254, 255, button(Keys.KEY_H))), trigger(254, 255, button(Keys.BTN_MOUSE)))"

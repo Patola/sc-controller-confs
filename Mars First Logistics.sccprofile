@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "button(Keys.KEY_F)"
+            "action": "mode(LGRIP, name('Abandon Contract', button(Keys.KEY_X)), name('Horn', button(Keys.KEY_G)))"
         }, 
         "B": {
-            "action": "button(Keys.KEY_E)"
+            "action": "mode(LGRIP, name('Edit Vehicle', button(Keys.KEY_V)), name('Move Saved Vehicle Up', button(Keys.KEY_T)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -16,9 +16,6 @@
         }, 
         "LB": {
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
-        }, 
-        "LGRIP": {
-            "action": "button(Keys.KEY_SPACE)"
         }, 
         "RB": {
             "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_LEFTCTRL))"
@@ -33,14 +30,13 @@
             "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, button(Keys.KEY_F4), button(Keys.KEY_TAB))"
+            "action": "mode(LGRIP, name('Undo', button(Keys.KEY_Z)), name('Map', button(Keys.KEY_TAB)))"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)"
+            "action": "mode(LGRIP, name('Reset Vehicle', button(Keys.KEY_R)), name('Show Controls', button(Keys.KEY_C)))"
         }, 
         "Y": {
-            "action": "name('Construction', button(Keys.KEY_Q))", 
-            "name": "Construction"
+            "action": "mode(LGRIP, name('Redo', button(Keys.KEY_Y)), name('FFFFFFFFFFFFFFFFFFFFFFF', button(Keys.KEY_F)))"
         }
     }, 
     "cpad": {}, 
@@ -49,14 +45,14 @@
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), mouse(Rels.REL_WHEEL, -1), mouse(Rels.REL_WHEEL, 1)))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_J), button(Keys.KEY_K))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, sens(1.5, 1.5, mouse()))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "rstick": {}, 
     "stick": {
-        "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
     }, 
     "trigger_left": {
         "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"

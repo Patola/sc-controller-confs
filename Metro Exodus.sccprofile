@@ -43,21 +43,22 @@
         }
     }, 
     "cpad": {}, 
+    "dpad": {}, 
     "gyro": {}, 
     "is_template": false, 
-    "menus": {
-    }, 
+    "menus": {}, 
     "pad_left": {
         "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_N), button(Keys.KEY_Y), button(Keys.KEY_M), button(Keys.KEY_B))), click(dpad(1, button(Keys.KEY_Q), button(Keys.KEY_L), button(Keys.KEY_G), button(Keys.KEY_T))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, mouse())"
+        "action": "smooth(8, 0.78, 2.0, sens(4.0, 4.0, mouse()))"
     }, 
+    "rstick": {}, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
     "trigger_left": {
-        "action": "trigger(254, 255, button(Keys.BTN_LEFT))"
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
     }, 
     "trigger_right": {
         "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
