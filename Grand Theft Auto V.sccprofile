@@ -32,24 +32,24 @@
             "action": "mode(LGRIP, name('Bycicle Sprint', button(Keys.KEY_CAPSLOCK)), name('Look Behind (On Foot)', button(Keys.KEY_C)))"
         }, 
         "X": {
-            "action": "button(Keys.KEY_R)", 
-            "name": "Light Mel\u00e9e Attack"
+            "action": "mode(LGRIP, name('Change Camera', button(Keys.KEY_V)), name('Light Mel\u00e9e Attack', button(Keys.KEY_R)))"
         }, 
         "Y": {
             "action": "mode(LGRIP, name('Headlights', button(Keys.KEY_H)), name('Throw Grenade / Detonate Sticky Bombs', button(Keys.KEY_G)))"
         }
     }, 
     "cpad": {}, 
+    "dpad": {}, 
     "gyro": {}, 
     "is_template": false, 
-    "menus": {
-    }, 
+    "menus": {}, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_F5), button(Keys.KEY_V), button(Keys.KEY_F7), button(Keys.KEY_F6))), click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_M), button(Keys.KEY_TAB), button(Keys.KEY_RIGHT))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_F5), button(Keys.KEY_CAPSLOCK), button(Keys.KEY_F7), button(Keys.KEY_F6))), click(dpad(1, button(Keys.KEY_UP), button(Keys.KEY_M), button(Keys.KEY_LEFTALT), button(Keys.KEY_RIGHT))))"
     }, 
     "pad_right": {
         "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
+    "rstick": {}, 
     "stick": {
         "action": "dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D))"
     }, 
