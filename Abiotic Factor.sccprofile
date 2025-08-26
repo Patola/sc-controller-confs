@@ -2,10 +2,10 @@
     "_": "", 
     "buttons": {
         "A": {
-            "action": "mode(LGRIP, name('Use Quick Slot', button(Keys.KEY_X)), name('Get All', button(Keys.KEY_F)))"
+            "action": "mode(LGRIP, name('Drop Item', button(Keys.KEY_G)), name('Secondary Interact', button(Keys.KEY_F)))"
         }, 
         "B": {
-            "action": "mode(LGRIP, name('Read', button(Keys.KEY_N)), button(Keys.KEY_E))"
+            "action": "mode(LGRIP, name('Store All of Type', button(Keys.KEY_Q)), name('Interact', button(Keys.KEY_E)))"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_ESC)", 
@@ -30,13 +30,13 @@
             "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
         }, 
         "STICKPRESS": {
-            "action": "mode(LGRIP, button(Keys.KEY_Z), name('Walk', button(Keys.KEY_KPDOT)))"
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), name('Hotbar', button(Keys.KEY_Y)))"
         }, 
         "X": {
-            "action": "mode(LGRIP, name('Next Quick Slot', button(Keys.KEY_X)), button(Keys.KEY_R))"
+            "action": "mode(LGRIP, name('Holster Item', button(Keys.KEY_H)), name('Reload', button(Keys.KEY_R)))"
         }, 
         "Y": {
-            "action": "mode(LGRIP, name('Show Quest Tracker', button(Keys.KEY_V)), name('Dash', button(Keys.KEY_LEFTALT)))"
+            "action": "mode(LGRIP, name('Health', button(Keys.KEY_X)), name('Flashlight', button(Keys.KEY_V)))"
         }
     }, 
     "cpad": {}, 
@@ -45,10 +45,10 @@
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
-        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_I), button(Keys.KEY_M), button(Keys.KEY_Q), button(Keys.KEY_TAB))))"
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3))), click(dpad(1, button(Keys.KEY_TAB), button(Keys.KEY_C), button(Keys.KEY_T), button(Keys.KEY_V))))"
     }, 
     "pad_right": {
-        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(3.0, 3.0, mouse())))"
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
     }, 
     "rstick": {}, 
     "stick": {

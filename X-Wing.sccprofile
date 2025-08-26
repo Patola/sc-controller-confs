@@ -1,0 +1,63 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP, name('Assign Target to Turret', button(Keys.KEY_LEFTSHIFT) and button(Keys.KEY_V)), name('FULL THROTTLE', button(Keys.KEY_BACKSLASH)))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP, name('Toggle Beam Weapon', button(Keys.KEY_B)), name('Target Closest Enemy', button(Keys.KEY_R)))"
+        }, 
+        "BACK": {
+            "action": "mode(LGRIP, button(Keys.KEY_Q), RGRIP, profile('X-Wing inverted mouse'), name('Escape', button(Keys.KEY_ESC)))"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_LEFTCTRL))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(LGRIP, button(Keys.KEY_C), button(Keys.KEY_TAB))"
+        }, 
+        "X": {
+            "action": "mode(LGRIP, name('Cycle Weapon Setting', button(Keys.KEY_X)), name('Cycle Weapons', button(Keys.KEY_W)))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP, name('Toggle Turret Auto-Targeting', button(Keys.KEY_V)), button(Keys.KEY_BACKSPACE))"
+        }
+    }, 
+    "cpad": {}, 
+    "dpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "mode(LGRIP, click(dpad(1, button(Keys.KEY_H), button(Keys.KEY_LEFTCTRL) and button(Keys.KEY_M), button(Keys.KEY_2), button(Keys.KEY_3))), RGRIP, dpad(1, button(Keys.KEY_F8), button(Keys.KEY_LEFTALT), button(Keys.KEY_APOSTROPHE), button(Keys.KEY_SEMICOLON)), click(dpad(1, button(Keys.KEY_F), button(Keys.KEY_M), button(Keys.KEY_I), button(Keys.KEY_K))))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, mouse()))"
+    }, 
+    "rstick": {}, 
+    "stick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_SEMICOLON), button(Keys.KEY_APOSTROPHE)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, 255, button(Keys.BTN_RIGHT))"
+    }, 
+    "version": 1.4
+}
