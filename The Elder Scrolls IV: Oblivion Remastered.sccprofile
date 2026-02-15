@@ -34,7 +34,7 @@
             "name": "Always Run"
         }, 
         "X": {
-            "action": "mode(LGRIP, button(Keys.KEY_3), name('Dunno', button(Keys.KEY_SPACE)))"
+            "action": "mode(LGRIP, button(Keys.KEY_3), name('Space', None))"
         }, 
         "Y": {
             "action": "mode(LGRIP, button(Keys.KEY_4), name('Ready Weapon', button(Keys.KEY_F)))"
