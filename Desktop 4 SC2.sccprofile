@@ -1,0 +1,118 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "mode(LGRIP2, button(Keys.KEY_B), LGRIPTOUCH, button(Keys.KEY_O), button(Keys.KEY_F))"
+        }, 
+        "B": {
+            "action": "mode(LGRIP2, button(Keys.KEY_Y), button(Keys.KEY_E))"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Escape"
+        }, 
+        "C": {
+            "action": "hold(menu('Default.menu'), menu('Default.menu'))"
+        }, 
+        "LB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, 1), button(Keys.KEY_SPACE))"
+        }, 
+        "LGRIP2": {
+            "action": "radialmenu('teste1')"
+        }, 
+        "RB": {
+            "action": "mode(LGRIP, mouse(Rels.REL_WHEEL, -1), button(Keys.KEY_LEFTCTRL))"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.BTN_MIDDLE)"
+        }, 
+        "START": {
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_ENTER))"
+        }, 
+        "STICKPRESS": {
+            "action": "mode(LGRIP, button(Keys.KEY_TAB), button(Keys.KEY_C))"
+        }, 
+        "X": {
+            "action": "mode(LGRIP2, button(Keys.KEY_T), button(Keys.KEY_R))"
+        }, 
+        "Y": {
+            "action": "mode(LGRIP2, button(Keys.KEY_G), button(Keys.KEY_Q))"
+        }
+    }, 
+    "cpad": {}, 
+    "dpad": {
+        "action": "dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))"
+    }, 
+    "gyro": {
+        "action": "mode(RGRIP2, gyroabs(Rels.REL_Y, Rels.REL_X), None)"
+    }, 
+    "is_template": false, 
+    "menus": {
+        "teste1": [{
+            "action": "button(Keys.KEY_1)", 
+            "icon": "buttons/1", 
+            "id": "item1", 
+            "name": "Um"
+        }, {
+            "action": "button(Keys.KEY_2)", 
+            "icon": "buttons/2", 
+            "id": "item2", 
+            "name": "Dois"
+        }, {
+            "action": "button(Keys.KEY_3)", 
+            "icon": "buttons/3", 
+            "id": "item3", 
+            "name": "Tr\u00eas"
+        }, {
+            "action": "button(Keys.KEY_4)", 
+            "icon": "buttons/4", 
+            "id": "item4", 
+            "name": "Quatro"
+        }, {
+            "action": "button(Keys.KEY_5)", 
+            "icon": "driving/gearbox-1", 
+            "id": "item5", 
+            "name": "Cinco"
+        }, {
+            "action": "button(Keys.KEY_6)", 
+            "icon": "driving/gearbox-2", 
+            "id": "item6", 
+            "name": "Seis"
+        }, {
+            "action": "button(Keys.KEY_7)", 
+            "icon": "driving/gearbox-3", 
+            "id": "item7", 
+            "name": "Sete"
+        }, {
+            "action": "button(Keys.KEY_8)", 
+            "icon": "driving/gearbox-4", 
+            "id": "item8", 
+            "name": "Oito"
+        }, {
+            "action": "button(Keys.KEY_9)", 
+            "icon": "driving/gearbox-5", 
+            "id": "item9", 
+            "name": "Nove"
+        }]
+    }, 
+    "pad_left": {
+        "action": "ball(XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL)))"
+    }, 
+    "pad_right": {
+        "action": "mode(LGRIP, sens(1.0, -1.0, XY(mouse(Rels.REL_HWHEEL), mouse(Rels.REL_WHEEL))), smooth(8, 0.78, 2.0, sens(2.0, 2.0, mouse())))"
+    }, 
+    "rstick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_4), button(Keys.KEY_1), button(Keys.KEY_2), button(Keys.KEY_3)), dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+    }, 
+    "stick": {
+        "action": "mode(LGRIP, dpad(button(Keys.KEY_X), button(Keys.KEY_Z), button(Keys.KEY_Q), button(Keys.KEY_E)), dpad(button(Keys.KEY_W), button(Keys.KEY_S), button(Keys.KEY_A), button(Keys.KEY_D)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(254, 255, button(Keys.BTN_MOUSE))"
+    }, 
+    "trigger_right": {}, 
+    "version": 1.4
+}
